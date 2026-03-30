@@ -1,0 +1,702 @@
+[
+  {
+    "id": "qwen3.5-0.8b",
+    "name": "Qwen3.5 0.8B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Very small Qwen3.5 option for older phones and fast downloads. Good fallback when storage and memory are tight.",
+    "sizeBytes": 532517120,
+    "ramRequirementBytes": 2400000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "compatibility": "best",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF/resolve/6ab461498e2023f6e3c1baea90a8f0fe38ab64d0/Qwen3.5-0.8B-Q4_K_M.gguf",
+    "sha256": "bd258782e35f7f458f8aced1adc053e6e92e89bc735ba3be89d38a06121dc517",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768
+  },
+  {
+    "id": "qwen3.5-2b",
+    "name": "Qwen3.5 2B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Strong small-model upgrade over fallback tiers. This is a good default target for mainstream phones.",
+    "sizeBytes": 1280835840,
+    "ramRequirementBytes": 3800000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "compatibility": "best",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/f6d5376be1edb4d416d56da11e5397a961aca8ae/Qwen3.5-2B-Q4_K_M.gguf",
+    "sha256": "aaf42c8b7c3cab2bf3d69c355048d4a0ee9973d48f16c731c0520ee914699223",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768
+  },
+  {
+    "id": "qwen3.5-2b-opus-distilled",
+    "name": "Qwen3.5 2B Opus Distilled",
+    "category": "language",
+    "provider": "Jackrong",
+    "summary": "Distilled Qwen3.5 2B variant aimed at sharper Claude-style reasoning, coding help, and cleaner follow-through than the base 2B while staying phone-friendly.",
+    "sizeBytes": 1270804416,
+    "ramRequirementBytes": 3800000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "compatibility": "best",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/5bd742daec56a85cf201ea9e283cb7bba042f00a/Qwen3.5-2B.Q4_K_M.gguf",
+    "sha256": "9e74321a0981f7333ffa067e1ad80b03a8b2bc6954acf4172fc63bd3ba23f178",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768
+  },
+  {
+    "id": "qwen3.5-4b",
+    "name": "Qwen3.5 4B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Higher-quality Qwen3.5 option for newer phones. Likely one of the best mainstream chat models in the catalog.",
+    "sizeBytes": 2740937888,
+    "ramRequirementBytes": 6800000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "compatibility": "supported",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/e87f176479d0855a907a41277aca2f8ee7a09523/Qwen3.5-4B-Q4_K_M.gguf",
+    "sha256": "00fe7986ff5f6b463e62455821146049db6f9313603938a70800d1fb69ef11a4",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768
+  },
+  {
+    "id": "qwen3.5-4b-tuned-hauhaucs-aggressive",
+    "name": "Qwen3.5 4B Tuned",
+    "category": "language",
+    "provider": "HauhauCS",
+    "summary": "Qwen3.5 4B variant tuned for more direct, less filtered replies than the base 4B while staying light enough for newer phones, tablets, and desktops.",
+    "sizeBytes": 2707513696,
+    "ramRequirementBytes": 6800000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "compatibility": "supported",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive/resolve/6255b8a5137738d47ca7e17b293c094aa3afc094/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+    "sha256": "79e28ecacf84e75b6056cf4059636d435aa9eb67795780f7b7dbc7d32a962741",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768
+  },
+  {
+    "id": "qwen3.5-9b",
+    "name": "Qwen3.5 9B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Stretch goal model for flagship phones, tablets, and desktop-class devices. Expect heavier memory pressure and slower responses.",
+    "sizeBytes": 5680522464,
+    "ramRequirementBytes": 11000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "compatibility": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/3885219b6810b007914f3a7950a8d1b469d598a5/Qwen3.5-9B-Q4_K_M.gguf",
+    "sha256": "03b74727a860a56338e042c4420bb3f04b2fec5734175f4cb9fa853daf52b7e8",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768
+  },
+  {
+    "id": "qwen3.5-9b-opus-distilled",
+    "name": "Qwen3.5 9B Opus Distilled",
+    "category": "language",
+    "provider": "crownelius",
+    "summary": "Distilled Qwen3.5 9B variant aimed at stronger Claude-style reasoning, longer-form answers, and sharper coding help than the base 9B. Heavy for phones and a better fit for newer devices and desktops.",
+    "sizeBytes": 5627044352,
+    "ramRequirementBytes": 11000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "compatibility": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5/resolve/6185054838e99400f4f2ea189c4fd6b1121ae864/Qwen3.5-9B-heretic-v2.Q4_K_M.gguf",
+    "sha256": "f7e71023c6dd43a6aad9ca2c66aee487dcf20db301dedbdbe3d0075a51daf43a",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768
+  },
+  {
+    "id": "qwen3.5-9b-tuned-hauhaucs-aggressive",
+    "name": "Qwen3.5 9B Tuned",
+    "category": "language",
+    "provider": "HauhauCS",
+    "summary": "Qwen3.5 9B variant tuned to feel friendlier, more direct, and less inquisitive in everyday chats. Heavy for phones and best suited to newer devices.",
+    "sizeBytes": 5627044224,
+    "ramRequirementBytes": 11000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "compatibility": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive/resolve/732a06ba17b0dabfb2b3b77eb3173eefcff0c72e/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+    "sha256": "2ca636d9e81d3d23ca9b60c234fe185d30ec082eeba69ce770fdb0c76559a4f5",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768
+  },
+  {
+    "id": "qwen3.5-27b",
+    "name": "Qwen3.5 27B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Desktop-class Qwen3.5 model tuned for stronger reasoning and coding quality. Intended for higher-memory laptops and workstations.",
+    "sizeBytes": 17621125024,
+    "ramRequirementBytes": 34000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "compatibility": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/30d153c8bdfd8ea1f25d47c4d2c4933cbb5bca52/Qwen3.5-27B-UD-Q4_K_XL.gguf",
+    "sha256": "13cb6228344898afa50d963c02ae0d991ae25094eea8837db8d0e452e91c5888",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768
+  },
+  {
+    "id": "qwen3.5-27b-opus-distilled",
+    "name": "Qwen3.5 27B Opus Distilled",
+    "category": "language",
+    "provider": "Jackrong",
+    "summary": "Desktop-focused Qwen3.5 27B variant distilled toward Claude-style reasoning and longer-form responses. Best suited to Macs and PCs with substantial unified memory or RAM.",
+    "sizeBytes": 16540267968,
+    "ramRequirementBytes": 34000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "compatibility": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/4b1f5dfd0c43867c79cd6aef523e38b413a2dcba/Qwen3.5-27B.Q4_K_M.gguf",
+    "sha256": "050c89b0ff28bd17f60a204bb4b4035fda04717dcdb9271ebb71dad0e822fc82",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768
+  },
+  {
+    "id": "qwen3.5-27b-tuned-hauhaucs-aggressive",
+    "name": "Qwen3.5 27B Tuned",
+    "category": "language",
+    "provider": "HauhauCS",
+    "summary": "Desktop-focused Qwen3.5 27B variant tuned for more direct and less filtered responses than the base 27B. Best suited to Macs and PCs with substantial memory headroom.",
+    "sizeBytes": 16540271712,
+    "ramRequirementBytes": 34000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "compatibility": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive/resolve/6601ca30d45fa62dfa2b74f1460d4feebd83a3b0/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+    "sha256": "ffec017c7ecba924fbaa8a6576df8c74d949eacb2c264113842ddb4176bbcae1",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768
+  },
+  {
+    "id": "glm-4.7-flash-opus-distilled",
+    "name": "GLM-4.7 Flash Opus Distilled",
+    "category": "language",
+    "provider": "TeichAI",
+    "summary": "Large desktop-focused GLM variant distilled toward stronger Claude-style reasoning and longer-form answers. Best suited to Macs and PCs with high memory budgets.",
+    "sizeBytes": 18132721856,
+    "ramRequirementBytes": 36000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "compatibility": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF/resolve/7b8a12a63040acc1120244cc466a242827c5269c/glm-4.7-flash-claude-4.5-opus.q4_k_m.gguf",
+    "sha256": "1b7f1a37ddac09fc3a5cc4ff9a78410c30cd4a105edb4ee6b87194c9523b1c88",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072
+  },
+  {
+    "id": "qwen3.5-35b-a3b",
+    "name": "Qwen3.5 35B-A3B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Large Mixture-of-Experts Qwen3.5 option for high-end desktop setups where quality matters more than memory footprint.",
+    "sizeBytes": 22241950336,
+    "ramRequirementBytes": 40000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "compatibility": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF/resolve/1b8fd3edeba1835ff8545d8ac9c60d3616a3f792/Qwen3.5-35B-A3B-UD-Q4_K_XL.gguf",
+    "sha256": "1b0ac637dfa092bbba2793977db9485a40c4f8b42df5fe342f0076d61b66ae83",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768
+  },
+  {
+    "id": "qwen3-coder-next-80b-a3b",
+    "name": "Qwen3 Coder Next 80B-A3B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "MoE coding-specialist model with only 3B active parameters but 80B total. Excels at long-horizon reasoning, tool use, and agentic coding tasks. Desktop-only due to large memory footprint.",
+    "sizeBytes": 53257576448,
+    "ramRequirementBytes": 55000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "compatibility": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF/resolve/e32511b695f50bdf866f01273ca8f86cd02e96ef/Qwen3-Coder-Next-UD-Q4_K_XL.gguf",
+    "sha256": "4bb93f0a0221ef4ff963ca9094df629c8dfdfabc3b4fdd85c1a2e4c0624fce36",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072
+  },
+  {
+    "id": "qwen3.5-122b-a10b",
+    "name": "Qwen3.5 122B-A10B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Ultra-large desktop MoE model for workstation-class hardware with very high memory capacity.",
+    "sizeBytes": 77029996032,
+    "ramRequirementBytes": 96000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "compatibility": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/5e8144e5331a1ff95c5510d4228e217654d829e0/UD-Q4_K_XL/Qwen3.5-122B-A10B-UD-Q4_K_XL-00001-of-00003.gguf",
+    "sha256": "",
+    "downloadParts": [
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/5e8144e5331a1ff95c5510d4228e217654d829e0/UD-Q4_K_XL/Qwen3.5-122B-A10B-UD-Q4_K_XL-00001-of-00003.gguf",
+        "sha256": "467c9bd92ea518539cf75bf5a5fbfbd35e9a0b40d766ccaa67bf120e12041df3",
+        "sizeBytes": 10943552
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/5e8144e5331a1ff95c5510d4228e217654d829e0/UD-Q4_K_XL/Qwen3.5-122B-A10B-UD-Q4_K_XL-00002-of-00003.gguf",
+        "sha256": "ecdbd42d43b0df9fa0ef9a584e09e95a43966ef03a122aba0b87a99d44d9ad98",
+        "sizeBytes": 49640779424
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/5e8144e5331a1ff95c5510d4228e217654d829e0/UD-Q4_K_XL/Qwen3.5-122B-A10B-UD-Q4_K_XL-00003-of-00003.gguf",
+        "sha256": "13300e0f059e6fa21aa0fabde2a554f9deea366c0e54f268045769b214b28c97",
+        "sizeBytes": 27378273056
+      }
+    ],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768
+  },
+  {
+    "id": "qwen3.5-reap-262b-a17b",
+    "name": "Qwen3.5 REAP 262B-A17B",
+    "category": "language",
+    "provider": "OpenMOSE",
+    "summary": "Pruned Qwen3.5-397B variant using REAP (Router-weighted Expert Activation Pruning) to cut 35% of MoE experts. Near-397B quality in a smaller footprint, fits on a single 96 GB GPU with CPU offload.",
+    "sizeBytes": 158591383200,
+    "ramRequirementBytes": 128000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "compatibility": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Q4_K_M/Qwen3.5-REAP-262B-A17B-Q4_K_M-00001-of-00005.gguf",
+    "sha256": "",
+    "downloadParts": [
+      {
+        "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Q4_K_M/Qwen3.5-REAP-262B-A17B-Q4_K_M-00001-of-00005.gguf",
+        "sha256": "1af8b89baefb90dc78f7d7dca1fddd31130e8fd277de99e54a038be75607bae9",
+        "sizeBytes": 31993719264
+      },
+      {
+        "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Q4_K_M/Qwen3.5-REAP-262B-A17B-Q4_K_M-00002-of-00005.gguf",
+        "sha256": "c94484a33b243254cac6fb19736f5cfc4fe0970f6a2ec29cf6e9cd4aa21dd297",
+        "sizeBytes": 31506576320
+      },
+      {
+        "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Q4_K_M/Qwen3.5-REAP-262B-A17B-Q4_K_M-00003-of-00005.gguf",
+        "sha256": "4e0bd755d8ae147aaecce3588c46c065a4d0eeeeae3c36972c4069053e153d8a",
+        "sizeBytes": 31553532992
+      },
+      {
+        "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Q4_K_M/Qwen3.5-REAP-262B-A17B-Q4_K_M-00004-of-00005.gguf",
+        "sha256": "ca6473ed542b98c846f65c69013febee203cf3a1e088f095006e5574ed858881",
+        "sizeBytes": 31861191488
+      },
+      {
+        "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Q4_K_M/Qwen3.5-REAP-262B-A17B-Q4_K_M-00005-of-00005.gguf",
+        "sha256": "81c2b176fde11fef04625285a09537f3a85edf727ca1d97652963a238f332005",
+        "sizeBytes": 31676363136
+      }
+    ],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Qwen3.5-REAP-262B-A17B-GGUF-mmproj.gguf",
+    "contextLength": 32768
+  },
+  {
+    "id": "nemotron-3-super-120b-a12b",
+    "name": "NVIDIA Nemotron 3 Super 120B-A12B",
+    "category": "language",
+    "provider": "NVIDIA / Unsloth",
+    "summary": "High-end Nemotron MoE option for workstation-class Macs and PCs. Expect long downloads, long load times, and a very large memory footprint.",
+    "sizeBytes": 82541168480,
+    "ramRequirementBytes": 104000000000,
+    "license": "NVIDIA Open Model License",
+    "tier": "free",
+    "compatibility": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/5a943c148056d38c183bf91dc7774c652f2eba21/UD-Q4_K_M/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-00001-of-00003.gguf",
+    "sha256": "",
+    "downloadParts": [
+      {
+        "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/5a943c148056d38c183bf91dc7774c652f2eba21/UD-Q4_K_M/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-00001-of-00003.gguf",
+        "sha256": "f22083eb6b15acb52905308ab083e8b0cc38897005cc45e8881abd164580aac2",
+        "sizeBytes": 7872576
+      },
+      {
+        "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/5a943c148056d38c183bf91dc7774c652f2eba21/UD-Q4_K_M/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-00002-of-00003.gguf",
+        "sha256": "6d65adda88759f1bcea714e4da09dab8ecc42265a57b87f9bf7fe3cb7f53b889",
+        "sizeBytes": 49932117344
+      },
+      {
+        "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/5a943c148056d38c183bf91dc7774c652f2eba21/UD-Q4_K_M/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-00003-of-00003.gguf",
+        "sha256": "2b126c51396dd31fbb1273fb2b28d0c8502bab5e357a852f67af7a4b6f5ba79c",
+        "sizeBytes": 32601178560
+      }
+    ],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072
+  },
+  {
+    "id": "qwen3.5-397b-a17b",
+    "name": "Qwen3.5 397B-A17B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Maximum-scale Qwen3.5 desktop option for enterprise-grade hardware and very large memory headroom.",
+    "sizeBytes": 245272148448,
+    "ramRequirementBytes": 200000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "compatibility": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00001-of-00006.gguf",
+    "sha256": "",
+    "downloadParts": [
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00001-of-00006.gguf",
+        "sha256": "63c290c9be83e1b4dd41833d81bd933afd535d65657579b9f92f5c3f76e0218d",
+        "sizeBytes": 10943552
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00002-of-00006.gguf",
+        "sha256": "bb5c4cf617ece5726008fcd07f4b12e5e44297d7279f031d31bb8e1f8c9f8e87",
+        "sizeBytes": 49382486496
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00003-of-00006.gguf",
+        "sha256": "2952dadb60137f413d5f70f6ca3c06007e24198e712c882a094432f58f76c230",
+        "sizeBytes": 49735103552
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00004-of-00006.gguf",
+        "sha256": "5146f7db59fc6ba3eedf55e1f30259d4ed38b4caffdb1b694fe4de1ef272505f",
+        "sizeBytes": 49365709504
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00005-of-00006.gguf",
+        "sha256": "1401908545cd15bc68aae2bce8757b944bebdb14b13e5e3a721f09ba7f428205",
+        "sizeBytes": 49914377024
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00006-of-00006.gguf",
+        "sha256": "dde51f1fa49600ad9168a99fa6d72fcc3537a60df09972af07ffae94b0328edf",
+        "sizeBytes": 46863528320
+      }
+    ],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768
+  },
+  {
+    "id": "gemma-3-4b-it",
+    "name": "Gemma 3 4B IT (Vision)",
+    "category": "language",
+    "provider": "Google / Unsloth",
+    "summary": "Compact vision-language model that can understand images and text. Runs on desktop and high-end mobile. First vision model in the catalog.",
+    "sizeBytes": 2673868800,
+    "ramRequirementBytes": 5000000000,
+    "license": "Gemma",
+    "tier": "free",
+    "compatibility": "supported",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/gemma-3-4b-it-GGUF/resolve/main/gemma-3-4b-it-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/gemma-3-4b-it-GGUF/resolve/main/mmproj-F16.gguf",
+    "mmprojSha256": "",
+    "contextLength": 131072
+  },
+  {
+    "id": "hermes-3-llama-3.2-3b",
+    "name": "Hermes 3 Llama 3.2 3B",
+    "category": "language",
+    "provider": "Nous Research",
+    "summary": "Compact Hermes model with strong tool-calling and instruction following. Great for mobile devices. Supports structured function calling via ChatML.",
+    "sizeBytes": 2020000000,
+    "ramRequirementBytes": 4500000000,
+    "license": "Llama 3.2 Community",
+    "tier": "free",
+    "compatibility": "best",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.2-3B-GGUF/resolve/main/Hermes-3-Llama-3.2-3B.Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072
+  },
+  {
+    "id": "hermes-3-llama-3.1-8b",
+    "name": "Hermes 3 Llama 3.1 8B",
+    "category": "language",
+    "provider": "Nous Research",
+    "summary": "Flagship Hermes 8B with excellent tool-calling, structured output, and multi-turn conversation. Strong all-rounder for phones and desktops.",
+    "sizeBytes": 4920000000,
+    "ramRequirementBytes": 10000000000,
+    "license": "Llama 3.1 Community",
+    "tier": "free",
+    "compatibility": "supported",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B-GGUF/resolve/main/Hermes-3-Llama-3.1-8B.Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072
+  },
+  {
+    "id": "deephermes-3-llama-3-8b",
+    "name": "DeepHermes 3 Llama 3 8B",
+    "category": "language",
+    "provider": "Nous Research",
+    "summary": "Hermes 8B with unified reasoning mode — toggle between fast responses and chain-of-thought thinking within a single model. Tool-calling included.",
+    "sizeBytes": 4660000000,
+    "ramRequirementBytes": 10000000000,
+    "license": "Llama 3 Community",
+    "tier": "free",
+    "compatibility": "supported",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview-GGUF/resolve/main/DeepHermes-3-Llama-3-8B-Preview.Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 8192
+  },
+  {
+    "id": "hermes-4.3-36b",
+    "name": "Hermes 4.3 36B",
+    "category": "language",
+    "provider": "Nous Research",
+    "summary": "Latest flagship Hermes model based on ByteDance Seed 36B. 512K context window, best-in-class tool-calling, and strong reasoning. Desktop only.",
+    "sizeBytes": 21800000000,
+    "ramRequirementBytes": 40000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "compatibility": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/NousResearch/Hermes-4.3-36B-GGUF/resolve/main/Hermes-4.3-36B.Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 524288
+  }
+]
