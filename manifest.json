@@ -1,0 +1,2413 @@
+{
+  "version": 1,
+  "language": [
+    {
+      "id": "qwen3.5-0.8b",
+      "name": "Qwen3.5 0.8B",
+      "category": "language",
+      "provider": "Qwen / Unsloth",
+      "summary": "Very small Qwen3.5 option for older phones and fast downloads. Good fallback when storage and memory are tight.",
+      "sizeBytes": 532517120,
+      "ramRequirementBytes": 2400000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "best",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF/resolve/6ab461498e2023f6e3c1baea90a8f0fe38ab64d0/Qwen3.5-0.8B-Q4_K_M.gguf",
+      "sha256": "bd258782e35f7f458f8aced1adc053e6e92e89bc735ba3be89d38a06121dc517",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF/resolve/main/mmproj-F16.gguf",
+      "contextLength": 32768
+    },
+    {
+      "id": "qwen3.5-2b-opus-distilled",
+      "name": "Qwen3.5 2B Opus Distilled",
+      "category": "language",
+      "provider": "Jackrong",
+      "summary": "Distilled Qwen3.5 2B variant aimed at sharper Claude-style reasoning, coding help, and cleaner follow-through than the base 2B while staying phone-friendly.",
+      "sizeBytes": 1270804416,
+      "ramRequirementBytes": 3800000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "best",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/5bd742daec56a85cf201ea9e283cb7bba042f00a/Qwen3.5-2B.Q4_K_M.gguf",
+      "sha256": "9e74321a0981f7333ffa067e1ad80b03a8b2bc6954acf4172fc63bd3ba23f178",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/main/mmproj-F16.gguf",
+      "contextLength": 32768
+    },
+    {
+      "id": "qwen3.5-2b",
+      "name": "Qwen3.5 2B",
+      "category": "language",
+      "provider": "Qwen / Unsloth",
+      "summary": "Strong small-model upgrade over fallback tiers. This is a good default target for mainstream phones.",
+      "sizeBytes": 1280835840,
+      "ramRequirementBytes": 3800000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "best",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/f6d5376be1edb4d416d56da11e5397a961aca8ae/Qwen3.5-2B-Q4_K_M.gguf",
+      "sha256": "aaf42c8b7c3cab2bf3d69c355048d4a0ee9973d48f16c731c0520ee914699223",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/main/mmproj-F16.gguf",
+      "contextLength": 32768
+    },
+    {
+      "id": "hermes-3-llama-3.2-3b",
+      "name": "Hermes 3 Llama 3.2 3B",
+      "category": "language",
+      "provider": "Nous Research",
+      "summary": "Compact Hermes model with strong tool-calling and instruction following. Great for mobile devices. Supports structured function calling via ChatML.",
+      "sizeBytes": 2020000000,
+      "ramRequirementBytes": 4500000000,
+      "license": "Llama 3.2 Community",
+      "tier": "free",
+      "compatibility": "best",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.2-3B-GGUF/resolve/main/Hermes-3-Llama-3.2-3B.Q4_K_M.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "tool-calling"
+      ],
+      "canReadFiles": true,
+      "contextLength": 131072
+    },
+    {
+      "id": "gemma-3-4b-it",
+      "name": "Gemma 3 4B IT (Vision)",
+      "category": "language",
+      "provider": "Google / Unsloth",
+      "summary": "Compact vision-language model that can understand images and text. Runs on desktop and high-end mobile. First vision model in the catalog.",
+      "sizeBytes": 2673868800,
+      "ramRequirementBytes": 5000000000,
+      "license": "Gemma",
+      "tier": "free",
+      "compatibility": "supported",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/unsloth/gemma-3-4b-it-GGUF/resolve/main/gemma-3-4b-it-Q4_K_M.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/unsloth/gemma-3-4b-it-GGUF/resolve/main/mmproj-F16.gguf",
+      "mmprojSha256": "",
+      "contextLength": 131072
+    },
+    {
+      "id": "qwen3.5-4b-tuned-hauhaucs-aggressive",
+      "name": "Qwen3.5 4B Tuned",
+      "category": "language",
+      "provider": "HauhauCS",
+      "summary": "Qwen3.5 4B variant tuned for more direct, less filtered replies than the base 4B while staying light enough for newer phones, tablets, and desktops.",
+      "sizeBytes": 2707513696,
+      "ramRequirementBytes": 6800000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "supported",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive/resolve/6255b8a5137738d47ca7e17b293c094aa3afc094/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+      "sha256": "79e28ecacf84e75b6056cf4059636d435aa9eb67795780f7b7dbc7d32a962741",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/main/mmproj-F16.gguf",
+      "contextLength": 32768
+    },
+    {
+      "id": "qwen3.5-4b",
+      "name": "Qwen3.5 4B",
+      "category": "language",
+      "provider": "Qwen / Unsloth",
+      "summary": "Higher-quality Qwen3.5 option for newer phones. Likely one of the best mainstream chat models in the catalog.",
+      "sizeBytes": 2740937888,
+      "ramRequirementBytes": 6800000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "supported",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/e87f176479d0855a907a41277aca2f8ee7a09523/Qwen3.5-4B-Q4_K_M.gguf",
+      "sha256": "00fe7986ff5f6b463e62455821146049db6f9313603938a70800d1fb69ef11a4",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/main/mmproj-F16.gguf",
+      "contextLength": 32768
+    },
+    {
+      "id": "deephermes-3-llama-3-8b",
+      "name": "DeepHermes 3 Llama 3 8B",
+      "category": "language",
+      "provider": "Nous Research",
+      "summary": "Hermes 8B with unified reasoning mode \u2014 toggle between fast responses and chain-of-thought thinking within a single model. Tool-calling included.",
+      "sizeBytes": 4660000000,
+      "ramRequirementBytes": 10000000000,
+      "license": "Llama 3 Community",
+      "tier": "free",
+      "compatibility": "supported",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview-GGUF/resolve/main/DeepHermes-3-Llama-3-8B-Preview.Q4_K_M.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "reasoning",
+        "tool-calling"
+      ],
+      "canReadFiles": true,
+      "contextLength": 8192
+    },
+    {
+      "id": "hermes-3-llama-3.1-8b",
+      "name": "Hermes 3 Llama 3.1 8B",
+      "category": "language",
+      "provider": "Nous Research",
+      "summary": "Flagship Hermes 8B with excellent tool-calling, structured output, and multi-turn conversation. Strong all-rounder for phones and desktops.",
+      "sizeBytes": 4920000000,
+      "ramRequirementBytes": 10000000000,
+      "license": "Llama 3.1 Community",
+      "tier": "free",
+      "compatibility": "supported",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B-GGUF/resolve/main/Hermes-3-Llama-3.1-8B.Q4_K_M.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "tool-calling"
+      ],
+      "canReadFiles": true,
+      "contextLength": 131072
+    },
+    {
+      "id": "qwen3.5-9b-tuned-hauhaucs-aggressive",
+      "name": "Qwen3.5 9B Tuned",
+      "category": "language",
+      "provider": "HauhauCS",
+      "summary": "Qwen3.5 9B variant tuned to feel friendlier, more direct, and less inquisitive in everyday chats. Heavy for phones and best suited to newer devices.",
+      "sizeBytes": 5627044224,
+      "ramRequirementBytes": 11000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive/resolve/732a06ba17b0dabfb2b3b77eb3173eefcff0c72e/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+      "sha256": "2ca636d9e81d3d23ca9b60c234fe185d30ec082eeba69ce770fdb0c76559a4f5",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/mmproj-F16.gguf",
+      "contextLength": 32768
+    },
+    {
+      "id": "qwen3.5-9b-opus-distilled",
+      "name": "Qwen3.5 9B Opus Distilled",
+      "category": "language",
+      "provider": "crownelius",
+      "summary": "Distilled Qwen3.5 9B variant aimed at stronger Claude-style reasoning, longer-form answers, and sharper coding help than the base 9B. Heavy for phones and a better fit for newer devices and desktops.",
+      "sizeBytes": 5627044352,
+      "ramRequirementBytes": 11000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5/resolve/6185054838e99400f4f2ea189c4fd6b1121ae864/Qwen3.5-9B-heretic-v2.Q4_K_M.gguf",
+      "sha256": "f7e71023c6dd43a6aad9ca2c66aee487dcf20db301dedbdbe3d0075a51daf43a",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/mmproj-F16.gguf",
+      "contextLength": 32768
+    },
+    {
+      "id": "qwen3.5-9b",
+      "name": "Qwen3.5 9B",
+      "category": "language",
+      "provider": "Qwen / Unsloth",
+      "summary": "Stretch goal model for flagship phones, tablets, and desktop-class devices. Expect heavier memory pressure and slower responses.",
+      "sizeBytes": 5680522464,
+      "ramRequirementBytes": 11000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/3885219b6810b007914f3a7950a8d1b469d598a5/Qwen3.5-9B-Q4_K_M.gguf",
+      "sha256": "03b74727a860a56338e042c4420bb3f04b2fec5734175f4cb9fa853daf52b7e8",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/mmproj-F16.gguf",
+      "contextLength": 32768
+    },
+    {
+      "id": "qwen3.5-27b-opus-distilled",
+      "name": "Qwen3.5 27B Opus Distilled",
+      "category": "language",
+      "provider": "Jackrong",
+      "summary": "Desktop-focused Qwen3.5 27B variant distilled toward Claude-style reasoning and longer-form responses. Best suited to Macs and PCs with substantial unified memory or RAM.",
+      "sizeBytes": 16540267968,
+      "ramRequirementBytes": 34000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/4b1f5dfd0c43867c79cd6aef523e38b413a2dcba/Qwen3.5-27B.Q4_K_M.gguf",
+      "sha256": "050c89b0ff28bd17f60a204bb4b4035fda04717dcdb9271ebb71dad0e822fc82",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/main/mmproj-F16.gguf",
+      "contextLength": 32768
+    },
+    {
+      "id": "qwen3.5-27b-tuned-hauhaucs-aggressive",
+      "name": "Qwen3.5 27B Tuned",
+      "category": "language",
+      "provider": "HauhauCS",
+      "summary": "Desktop-focused Qwen3.5 27B variant tuned for more direct and less filtered responses than the base 27B. Best suited to Macs and PCs with substantial memory headroom.",
+      "sizeBytes": 16540271712,
+      "ramRequirementBytes": 34000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive/resolve/6601ca30d45fa62dfa2b74f1460d4feebd83a3b0/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+      "sha256": "ffec017c7ecba924fbaa8a6576df8c74d949eacb2c264113842ddb4176bbcae1",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/main/mmproj-F16.gguf",
+      "contextLength": 32768
+    },
+    {
+      "id": "qwen3.5-27b",
+      "name": "Qwen3.5 27B",
+      "category": "language",
+      "provider": "Qwen / Unsloth",
+      "summary": "Desktop-class Qwen3.5 model tuned for stronger reasoning and coding quality. Intended for higher-memory laptops and workstations.",
+      "sizeBytes": 17621125024,
+      "ramRequirementBytes": 34000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/30d153c8bdfd8ea1f25d47c4d2c4933cbb5bca52/Qwen3.5-27B-UD-Q4_K_XL.gguf",
+      "sha256": "13cb6228344898afa50d963c02ae0d991ae25094eea8837db8d0e452e91c5888",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/main/mmproj-F16.gguf",
+      "contextLength": 32768
+    },
+    {
+      "id": "glm-4.7-flash-opus-distilled",
+      "name": "GLM-4.7 Flash Opus Distilled",
+      "category": "language",
+      "provider": "TeichAI",
+      "summary": "Large desktop-focused GLM variant distilled toward stronger Claude-style reasoning and longer-form answers. Best suited to Macs and PCs with high memory budgets.",
+      "sizeBytes": 18132721856,
+      "ramRequirementBytes": 36000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF/resolve/7b8a12a63040acc1120244cc466a242827c5269c/glm-4.7-flash-claude-4.5-opus.q4_k_m.gguf",
+      "sha256": "1b7f1a37ddac09fc3a5cc4ff9a78410c30cd4a105edb4ee6b87194c9523b1c88",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "canReadFiles": true,
+      "contextLength": 131072
+    },
+    {
+      "id": "hermes-4.3-36b",
+      "name": "Hermes 4.3 36B",
+      "category": "language",
+      "provider": "Nous Research",
+      "summary": "Latest flagship Hermes model based on ByteDance Seed 36B. 512K context window, best-in-class tool-calling, and strong reasoning. Desktop only.",
+      "sizeBytes": 21800000000,
+      "ramRequirementBytes": 40000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/NousResearch/Hermes-4.3-36B-GGUF/resolve/main/Hermes-4.3-36B.Q4_K_M.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "reasoning",
+        "tool-calling"
+      ],
+      "canReadFiles": true,
+      "contextLength": 524288
+    },
+    {
+      "id": "qwen3.5-35b-a3b",
+      "name": "Qwen3.5 35B-A3B",
+      "category": "language",
+      "provider": "Qwen / Unsloth",
+      "summary": "Large Mixture-of-Experts Qwen3.5 option for high-end desktop setups where quality matters more than memory footprint.",
+      "sizeBytes": 22241950336,
+      "ramRequirementBytes": 40000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF/resolve/1b8fd3edeba1835ff8545d8ac9c60d3616a3f792/Qwen3.5-35B-A3B-UD-Q4_K_XL.gguf",
+      "sha256": "1b0ac637dfa092bbba2793977db9485a40c4f8b42df5fe342f0076d61b66ae83",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF/resolve/main/mmproj-F16.gguf",
+      "contextLength": 32768
+    },
+    {
+      "id": "qwen3-coder-next-80b-a3b",
+      "name": "Qwen3 Coder Next 80B-A3B",
+      "category": "language",
+      "provider": "Qwen / Unsloth",
+      "summary": "MoE coding-specialist model with only 3B active parameters but 80B total. Excels at long-horizon reasoning, tool use, and agentic coding tasks. Desktop-only due to large memory footprint.",
+      "sizeBytes": 53257576448,
+      "ramRequirementBytes": 55000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF/resolve/e32511b695f50bdf866f01273ca8f86cd02e96ef/Qwen3-Coder-Next-UD-Q4_K_XL.gguf",
+      "sha256": "4bb93f0a0221ef4ff963ca9094df629c8dfdfabc3b4fdd85c1a2e4c0624fce36",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "canReadFiles": true,
+      "contextLength": 131072
+    },
+    {
+      "id": "qwen3.5-122b-a10b",
+      "name": "Qwen3.5 122B-A10B",
+      "category": "language",
+      "provider": "Qwen / Unsloth",
+      "summary": "Ultra-large desktop MoE model for workstation-class hardware with very high memory capacity.",
+      "sizeBytes": 77029996032,
+      "ramRequirementBytes": 96000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/5e8144e5331a1ff95c5510d4228e217654d829e0/UD-Q4_K_XL/Qwen3.5-122B-A10B-UD-Q4_K_XL-00001-of-00003.gguf",
+      "sha256": "",
+      "downloadParts": [
+        {
+          "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/5e8144e5331a1ff95c5510d4228e217654d829e0/UD-Q4_K_XL/Qwen3.5-122B-A10B-UD-Q4_K_XL-00001-of-00003.gguf",
+          "sha256": "467c9bd92ea518539cf75bf5a5fbfbd35e9a0b40d766ccaa67bf120e12041df3",
+          "sizeBytes": 10943552
+        },
+        {
+          "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/5e8144e5331a1ff95c5510d4228e217654d829e0/UD-Q4_K_XL/Qwen3.5-122B-A10B-UD-Q4_K_XL-00002-of-00003.gguf",
+          "sha256": "ecdbd42d43b0df9fa0ef9a584e09e95a43966ef03a122aba0b87a99d44d9ad98",
+          "sizeBytes": 49640779424
+        },
+        {
+          "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/5e8144e5331a1ff95c5510d4228e217654d829e0/UD-Q4_K_XL/Qwen3.5-122B-A10B-UD-Q4_K_XL-00003-of-00003.gguf",
+          "sha256": "13300e0f059e6fa21aa0fabde2a554f9deea366c0e54f268045769b214b28c97",
+          "sizeBytes": 27378273056
+        }
+      ],
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/mmproj-F16.gguf",
+      "contextLength": 32768
+    },
+    {
+      "id": "nemotron-3-super-120b-a12b",
+      "name": "NVIDIA Nemotron 3 Super 120B-A12B",
+      "category": "language",
+      "provider": "NVIDIA / Unsloth",
+      "summary": "High-end Nemotron MoE option for workstation-class Macs and PCs. Expect long downloads, long load times, and a very large memory footprint.",
+      "sizeBytes": 82541168480,
+      "ramRequirementBytes": 104000000000,
+      "license": "NVIDIA Open Model License",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/5a943c148056d38c183bf91dc7774c652f2eba21/UD-Q4_K_M/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-00001-of-00003.gguf",
+      "sha256": "",
+      "downloadParts": [
+        {
+          "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/5a943c148056d38c183bf91dc7774c652f2eba21/UD-Q4_K_M/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-00001-of-00003.gguf",
+          "sha256": "f22083eb6b15acb52905308ab083e8b0cc38897005cc45e8881abd164580aac2",
+          "sizeBytes": 7872576
+        },
+        {
+          "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/5a943c148056d38c183bf91dc7774c652f2eba21/UD-Q4_K_M/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-00002-of-00003.gguf",
+          "sha256": "6d65adda88759f1bcea714e4da09dab8ecc42265a57b87f9bf7fe3cb7f53b889",
+          "sizeBytes": 49932117344
+        },
+        {
+          "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/5a943c148056d38c183bf91dc7774c652f2eba21/UD-Q4_K_M/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-00003-of-00003.gguf",
+          "sha256": "2b126c51396dd31fbb1273fb2b28d0c8502bab5e357a852f67af7a4b6f5ba79c",
+          "sizeBytes": 32601178560
+        }
+      ],
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "canReadFiles": true,
+      "contextLength": 131072
+    },
+    {
+      "id": "qwen3.5-reap-262b-a17b",
+      "name": "Qwen3.5 REAP 262B-A17B",
+      "category": "language",
+      "provider": "OpenMOSE",
+      "summary": "Pruned Qwen3.5-397B variant using REAP (Router-weighted Expert Activation Pruning) to cut 35% of MoE experts. Near-397B quality in a smaller footprint, fits on a single 96 GB GPU with CPU offload.",
+      "sizeBytes": 158591383200,
+      "ramRequirementBytes": 128000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Q4_K_M/Qwen3.5-REAP-262B-A17B-Q4_K_M-00001-of-00005.gguf",
+      "sha256": "",
+      "downloadParts": [
+        {
+          "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Q4_K_M/Qwen3.5-REAP-262B-A17B-Q4_K_M-00001-of-00005.gguf",
+          "sha256": "1af8b89baefb90dc78f7d7dca1fddd31130e8fd277de99e54a038be75607bae9",
+          "sizeBytes": 31993719264
+        },
+        {
+          "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Q4_K_M/Qwen3.5-REAP-262B-A17B-Q4_K_M-00002-of-00005.gguf",
+          "sha256": "c94484a33b243254cac6fb19736f5cfc4fe0970f6a2ec29cf6e9cd4aa21dd297",
+          "sizeBytes": 31506576320
+        },
+        {
+          "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Q4_K_M/Qwen3.5-REAP-262B-A17B-Q4_K_M-00003-of-00005.gguf",
+          "sha256": "4e0bd755d8ae147aaecce3588c46c065a4d0eeeeae3c36972c4069053e153d8a",
+          "sizeBytes": 31553532992
+        },
+        {
+          "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Q4_K_M/Qwen3.5-REAP-262B-A17B-Q4_K_M-00004-of-00005.gguf",
+          "sha256": "ca6473ed542b98c846f65c69013febee203cf3a1e088f095006e5574ed858881",
+          "sizeBytes": 31861191488
+        },
+        {
+          "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Q4_K_M/Qwen3.5-REAP-262B-A17B-Q4_K_M-00005-of-00005.gguf",
+          "sha256": "81c2b176fde11fef04625285a09537f3a85edf727ca1d97652963a238f332005",
+          "sizeBytes": 31676363136
+        }
+      ],
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Qwen3.5-REAP-262B-A17B-GGUF-mmproj.gguf",
+      "contextLength": 32768
+    },
+    {
+      "id": "qwen3.5-397b-a17b",
+      "name": "Qwen3.5 397B-A17B",
+      "category": "language",
+      "provider": "Qwen / Unsloth",
+      "summary": "Maximum-scale Qwen3.5 desktop option for enterprise-grade hardware and very large memory headroom.",
+      "sizeBytes": 245272148448,
+      "ramRequirementBytes": 200000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00001-of-00006.gguf",
+      "sha256": "",
+      "downloadParts": [
+        {
+          "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00001-of-00006.gguf",
+          "sha256": "63c290c9be83e1b4dd41833d81bd933afd535d65657579b9f92f5c3f76e0218d",
+          "sizeBytes": 10943552
+        },
+        {
+          "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00002-of-00006.gguf",
+          "sha256": "bb5c4cf617ece5726008fcd07f4b12e5e44297d7279f031d31bb8e1f8c9f8e87",
+          "sizeBytes": 49382486496
+        },
+        {
+          "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00003-of-00006.gguf",
+          "sha256": "2952dadb60137f413d5f70f6ca3c06007e24198e712c882a094432f58f76c230",
+          "sizeBytes": 49735103552
+        },
+        {
+          "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00004-of-00006.gguf",
+          "sha256": "5146f7db59fc6ba3eedf55e1f30259d4ed38b4caffdb1b694fe4de1ef272505f",
+          "sizeBytes": 49365709504
+        },
+        {
+          "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00005-of-00006.gguf",
+          "sha256": "1401908545cd15bc68aae2bce8757b944bebdb14b13e5e3a721f09ba7f428205",
+          "sizeBytes": 49914377024
+        },
+        {
+          "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00006-of-00006.gguf",
+          "sha256": "dde51f1fa49600ad9168a99fa6d72fcc3537a60df09972af07ffae94b0328edf",
+          "sizeBytes": 46863528320
+        }
+      ],
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/mmproj-F16.gguf",
+      "contextLength": 32768
+    }
+  ],
+  "image": [
+    {
+      "id": "sd-1.5-q8_0",
+      "name": "Stable Diffusion 1.5",
+      "category": "image",
+      "provider": "Stability AI",
+      "summary": "Smallest image gen model. Fast on phones and desktops. Generates 512x512 images with good quality for its size.",
+      "sizeBytes": 1600000000,
+      "ramRequirementBytes": 6000000000,
+      "vramRequirementBytes": 2000000000,
+      "license": "CreativeML Open RAIL-M",
+      "tier": "free",
+      "compatibility": "best",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/gpustack/stable-diffusion-v1-5-GGUF/resolve/main/stable-diffusion-v1-5-Q8_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "ios",
+        "android",
+        "macos",
+        "windows"
+      ],
+      "architecture": "sd1.5",
+      "defaultSteps": 20,
+      "defaultCfgScale": 7.0,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 512,
+          "height": 768
+        },
+        {
+          "width": 768,
+          "height": 512
+        }
+      ],
+      "defaultResolution": {
+        "width": 512,
+        "height": 512
+      },
+      "supportsNegativePrompt": true
+    },
+    {
+      "id": "sdxl-turbo-q4_0",
+      "name": "SDXL Turbo",
+      "category": "image",
+      "provider": "Stability AI",
+      "summary": "Very fast image generation in just 4 steps. Good quality at 512x512. Great for quick iterations on newer phones and desktops.",
+      "sizeBytes": 3700000000,
+      "ramRequirementBytes": 8000000000,
+      "vramRequirementBytes": 6000000000,
+      "license": "STABILITY AI COMMUNITY",
+      "tier": "free",
+      "compatibility": "supported",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/gpustack/stable-diffusion-xl-1.0-turbo-GGUF/resolve/main/stable-diffusion-xl-1.0-turbo-Q4_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "ios",
+        "macos",
+        "windows"
+      ],
+      "architecture": "sdxl",
+      "defaultSteps": 4,
+      "defaultCfgScale": 1.0,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 512,
+          "height": 768
+        },
+        {
+          "width": 768,
+          "height": 512
+        }
+      ],
+      "defaultResolution": {
+        "width": 512,
+        "height": 512
+      },
+      "supportsNegativePrompt": false
+    },
+    {
+      "id": "sd3.5-medium-q4_0",
+      "name": "Stable Diffusion 3.5 Medium",
+      "category": "image",
+      "provider": "Stability AI",
+      "summary": "Best quality-to-size ratio for image gen. Generates 1024x1024 images with strong prompt adherence and fine detail.",
+      "sizeBytes": 2500000000,
+      "ramRequirementBytes": 10000000000,
+      "vramRequirementBytes": 6000000000,
+      "license": "Stability AI Community",
+      "tier": "free",
+      "compatibility": "supported",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/sd3.5_medium-Q4_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "sd3",
+      "defaultSteps": 28,
+      "defaultCfgScale": 5.0,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "defaultResolution": {
+        "width": 1024,
+        "height": 1024
+      },
+      "supportsNegativePrompt": true,
+      "clipLUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/clip_l.safetensors",
+      "t5xxlUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/t5xxl_fp16.safetensors"
+    },
+    {
+      "id": "sdxl-lightning-4step-q8_0",
+      "name": "SDXL Lightning",
+      "category": "image",
+      "provider": "ByteDance",
+      "summary": "Lightning-fast SDXL distilled to 4 steps. Generates 1024x1024 images in under a second on desktop GPUs. Excellent quality for its speed.",
+      "sizeBytes": 4100000000,
+      "ramRequirementBytes": 8000000000,
+      "vramRequirementBytes": 6000000000,
+      "license": "openrail++",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/OlegSkutte/SDXL-Lightning-GGUF/resolve/main/sdxl_lightning_4step.q8_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "sdxl",
+      "defaultSteps": 4,
+      "defaultCfgScale": 1.0,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "defaultResolution": {
+        "width": 1024,
+        "height": 1024
+      },
+      "supportsNegativePrompt": false
+    },
+    {
+      "id": "z-image-turbo-q4_0",
+      "name": "Z-Image Turbo",
+      "category": "image",
+      "provider": "Z-Image",
+      "summary": "Blazing fast 6B model \u2014 10x faster than FLUX with ~95% of the quality. Excellent bilingual text rendering (EN/CN). Only 3.7 GB. Apache 2.0.",
+      "sizeBytes": 3680000000,
+      "ramRequirementBytes": 8000000000,
+      "vramRequirementBytes": 6000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "supported",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/leejet/Z-Image-Turbo-GGUF/resolve/main/z_image_turbo-Q4_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "z-image",
+      "defaultSteps": 8,
+      "defaultCfgScale": 1.0,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 512,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 512
+        }
+      ],
+      "defaultResolution": {
+        "width": 1024,
+        "height": 1024
+      },
+      "supportsNegativePrompt": false,
+      "vaeUrl": "https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors",
+      "llmUrl": "https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF/resolve/main/Qwen3-4B-Instruct-2507-Q4_K_M.gguf"
+    },
+    {
+      "id": "sdxl-base-1.0-q8_0",
+      "name": "SDXL Base 1.0",
+      "category": "image",
+      "provider": "Stability AI",
+      "summary": "Full-quality SDXL with 20-step generation. Produces detailed 1024x1024 images with strong prompt adherence. Desktop only.",
+      "sizeBytes": 5040000000,
+      "ramRequirementBytes": 12000000000,
+      "vramRequirementBytes": 8000000000,
+      "license": "STABILITY AI COMMUNITY",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/gpustack/stable-diffusion-xl-base-1.0-GGUF/resolve/main/stable-diffusion-xl-base-1.0-Q8_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "sdxl",
+      "defaultSteps": 20,
+      "defaultCfgScale": 7.0,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "defaultResolution": {
+        "width": 1024,
+        "height": 1024
+      },
+      "supportsNegativePrompt": true
+    },
+    {
+      "id": "sd3.5-large-q4_0",
+      "name": "Stable Diffusion 3.5 Large",
+      "category": "image",
+      "provider": "Stability AI",
+      "summary": "8B-parameter MMDiT model. Major step up from SD 3.5 Medium with superior prompt understanding, typography, and fine detail at 1024x1024.",
+      "sizeBytes": 4770000000,
+      "ramRequirementBytes": 16000000000,
+      "vramRequirementBytes": 10000000000,
+      "license": "Stability AI Community",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/city96/stable-diffusion-3.5-large-gguf/resolve/main/sd3.5_large-Q4_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "sd3",
+      "defaultSteps": 28,
+      "defaultCfgScale": 5.0,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "defaultResolution": {
+        "width": 1024,
+        "height": 1024
+      },
+      "supportsNegativePrompt": true,
+      "clipLUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/clip_l.safetensors",
+      "t5xxlUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/t5xxl_fp16.safetensors"
+    },
+    {
+      "id": "sd3.5-large-turbo-q4_0",
+      "name": "SD 3.5 Large Turbo",
+      "category": "image",
+      "provider": "Stability AI",
+      "summary": "Fast 4-step generation with 8B-parameter quality. Uses adversarial diffusion distillation for rapid high-quality output at 1024x1024.",
+      "sizeBytes": 4770000000,
+      "ramRequirementBytes": 16000000000,
+      "vramRequirementBytes": 10000000000,
+      "license": "Stability AI Community",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/city96/stable-diffusion-3.5-large-turbo-gguf/resolve/main/sd3.5_large_turbo-Q4_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "sd3",
+      "defaultSteps": 4,
+      "defaultCfgScale": 1.0,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "defaultResolution": {
+        "width": 1024,
+        "height": 1024
+      },
+      "supportsNegativePrompt": false,
+      "clipLUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/clip_l.safetensors",
+      "t5xxlUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/t5xxl_fp16.safetensors"
+    },
+    {
+      "id": "z-image-base-q8_0",
+      "name": "Z-Image Base",
+      "category": "image",
+      "provider": "Z-Image",
+      "summary": "Full 6B model for maximum quality. Exceptional prompt adherence and photorealism at 1024x1024. Pairs with Qwen3-4B text encoder. Apache 2.0.",
+      "sizeBytes": 6550000000,
+      "ramRequirementBytes": 16000000000,
+      "vramRequirementBytes": 10000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/leejet/Z-Image-GGUF/resolve/main/z_image-Q8_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "z-image",
+      "defaultSteps": 28,
+      "defaultCfgScale": 5.0,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 512,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 512
+        }
+      ],
+      "defaultResolution": {
+        "width": 1024,
+        "height": 1024
+      },
+      "supportsNegativePrompt": true,
+      "vaeUrl": "https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors",
+      "llmUrl": "https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF/resolve/main/Qwen3-4B-Instruct-2507-Q4_K_M.gguf"
+    },
+    {
+      "id": "flux1-schnell-q4_0",
+      "name": "FLUX.1 Schnell",
+      "category": "image",
+      "provider": "Black Forest Labs",
+      "summary": "State-of-the-art image generation in just 4 steps. Exceptional prompt understanding and photorealistic output. Desktop only \u2014 needs significant memory.",
+      "sizeBytes": 6800000000,
+      "ramRequirementBytes": 16000000000,
+      "vramRequirementBytes": 12000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/flux1-schnell-Q4_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "flux",
+      "defaultSteps": 4,
+      "defaultCfgScale": 1.0,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "defaultResolution": {
+        "width": 1024,
+        "height": 1024
+      },
+      "supportsNegativePrompt": false,
+      "clipLUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/clip_l.safetensors",
+      "t5xxlUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/t5xxl_fp16.safetensors"
+    },
+    {
+      "id": "flux1-dev-q4_0",
+      "name": "FLUX.1 Dev",
+      "category": "image",
+      "provider": "Black Forest Labs",
+      "summary": "Highest-quality FLUX.1 model. 50-step generation produces exceptional photorealistic images with outstanding prompt fidelity. Non-commercial license.",
+      "sizeBytes": 6790000000,
+      "ramRequirementBytes": 16000000000,
+      "vramRequirementBytes": 12000000000,
+      "license": "FLUX.1 [dev] Non-Commercial License",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q4_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "flux",
+      "defaultSteps": 50,
+      "defaultCfgScale": 3.5,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "defaultResolution": {
+        "width": 1024,
+        "height": 1024
+      },
+      "supportsNegativePrompt": false,
+      "clipLUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/clip_l.safetensors",
+      "t5xxlUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/t5xxl_fp16.safetensors"
+    },
+    {
+      "id": "chroma1-hd-flash-q4_0",
+      "name": "Chroma1 HD Flash",
+      "category": "image",
+      "provider": "Lodestone / CircleStone",
+      "summary": "Fast distilled Chroma model. 8.9B FLUX-based architecture generating high-quality images in ~8 steps. Great speed-to-quality ratio. Apache 2.0.",
+      "sizeBytes": 5430000000,
+      "ramRequirementBytes": 16000000000,
+      "vramRequirementBytes": 12000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/silveroxides/Chroma1-Flash-GGUF/resolve/main/Chroma1-HD-Flash-Q4_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "chroma",
+      "defaultSteps": 8,
+      "defaultCfgScale": 1.0,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "defaultResolution": {
+        "width": 1024,
+        "height": 1024
+      },
+      "supportsNegativePrompt": true,
+      "vaeUrl": "https://huggingface.co/lodestones/Chroma/resolve/main/ae.safetensors",
+      "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
+    },
+    {
+      "id": "chroma1-hd-q4_0",
+      "name": "Chroma1 HD",
+      "category": "image",
+      "provider": "Lodestone / CircleStone",
+      "summary": "8.9B FLUX-based model tuned for HD image quality. Excellent prompt adherence, typography, and fine detail. 40-step generation at 1024x1024. Apache 2.0.",
+      "sizeBytes": 5430000000,
+      "ramRequirementBytes": 16000000000,
+      "vramRequirementBytes": 12000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/silveroxides/Chroma1-HD-GGUF/resolve/main/Chroma1-HD-Q4_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "chroma",
+      "defaultSteps": 40,
+      "defaultCfgScale": 3.0,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "defaultResolution": {
+        "width": 1024,
+        "height": 1024
+      },
+      "supportsNegativePrompt": true,
+      "vaeUrl": "https://huggingface.co/lodestones/Chroma/resolve/main/ae.safetensors",
+      "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
+    },
+    {
+      "id": "ovis-image-7b-q4_0",
+      "name": "Ovis-Image 7B",
+      "category": "image",
+      "provider": "Alibaba AIDC-AI",
+      "summary": "7B model that punches above its weight \u2014 text rendering accuracy (0.92) beats 20B Qwen-Image (0.83) and GPT-4o (0.86). Built on FLUX architecture. Great for typography-heavy content.",
+      "sizeBytes": 4200000000,
+      "ramRequirementBytes": 16000000000,
+      "vramRequirementBytes": 12000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/leejet/Ovis-Image-7B-GGUF/resolve/main/ovis_image-Q4_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "ovis-image",
+      "defaultSteps": 28,
+      "defaultCfgScale": 5.0,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "defaultResolution": {
+        "width": 1024,
+        "height": 1024
+      },
+      "supportsNegativePrompt": false,
+      "vaeUrl": "https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors",
+      "llmUrl": "https://huggingface.co/Comfy-Org/Ovis-Image/resolve/main/split_files/text_encoders/ovis_2.5.safetensors"
+    },
+    {
+      "id": "flux1-schnell-q8_0",
+      "name": "FLUX.1 Schnell Q8",
+      "category": "image",
+      "provider": "Black Forest Labs",
+      "summary": "Higher-fidelity quantization of FLUX.1 Schnell. Same blazing 4-step generation with noticeably sharper details. RAM is the bottleneck \u2014 24 GB+ recommended.",
+      "sizeBytes": 12700000000,
+      "ramRequirementBytes": 24000000000,
+      "vramRequirementBytes": 16000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/flux1-schnell-Q8_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "flux",
+      "defaultSteps": 4,
+      "defaultCfgScale": 1.0,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "defaultResolution": {
+        "width": 1024,
+        "height": 1024
+      },
+      "supportsNegativePrompt": false,
+      "clipLUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/clip_l.safetensors",
+      "t5xxlUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/t5xxl_fp16.safetensors"
+    },
+    {
+      "id": "flux1-dev-q8_0",
+      "name": "FLUX.1 Dev Q8",
+      "category": "image",
+      "provider": "Black Forest Labs",
+      "summary": "Premium quantization of FLUX.1 Dev. The best local image generation quality available \u2014 photorealistic with near-lossless detail. RAM is the bottleneck \u2014 24 GB+ recommended. Non-commercial license.",
+      "sizeBytes": 12700000000,
+      "ramRequirementBytes": 24000000000,
+      "vramRequirementBytes": 16000000000,
+      "license": "FLUX.1 [dev] Non-Commercial License",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q8_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "flux",
+      "defaultSteps": 50,
+      "defaultCfgScale": 3.5,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "defaultResolution": {
+        "width": 1024,
+        "height": 1024
+      },
+      "supportsNegativePrompt": false,
+      "clipLUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/clip_l.safetensors",
+      "t5xxlUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/t5xxl_fp16.safetensors"
+    },
+    {
+      "id": "chroma1-hd-q8_0",
+      "name": "Chroma1 HD Q8",
+      "category": "image",
+      "provider": "Lodestone / CircleStone",
+      "summary": "Premium quantization of Chroma1 HD. Near-lossless 8.9B FLUX-based model for the highest local image quality. RAM is the bottleneck \u2014 24 GB+ recommended. Apache 2.0.",
+      "sizeBytes": 9740000000,
+      "ramRequirementBytes": 24000000000,
+      "vramRequirementBytes": 16000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/silveroxides/Chroma1-HD-GGUF/resolve/main/Chroma1-HD-Q8_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "chroma",
+      "defaultSteps": 40,
+      "defaultCfgScale": 3.0,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "defaultResolution": {
+        "width": 1024,
+        "height": 1024
+      },
+      "supportsNegativePrompt": true,
+      "vaeUrl": "https://huggingface.co/lodestones/Chroma/resolve/main/ae.safetensors",
+      "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
+    },
+    {
+      "id": "chroma1-radiance-v0.4-q8_0",
+      "name": "Chroma1 Radiance",
+      "category": "image",
+      "provider": "Lodestone / CircleStone",
+      "summary": "10B pixel-space diffusion model \u2014 no VAE needed. Works directly on image pixels for exceptional detail and coherence. 40-step generation. Apache 2.0.",
+      "sizeBytes": 10400000000,
+      "ramRequirementBytes": 24000000000,
+      "vramRequirementBytes": 16000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/silveroxides/Chroma1-Radiance-GGUF/resolve/main/Chroma1-Radiance-v0.4/Chroma1-Radiance-v0.4-Q8_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "chroma",
+      "defaultSteps": 40,
+      "defaultCfgScale": 4.0,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "defaultResolution": {
+        "width": 1024,
+        "height": 1024
+      },
+      "supportsNegativePrompt": true,
+      "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
+    },
+    {
+      "id": "qwen-image-q4_k_m",
+      "name": "Qwen-Image",
+      "category": "image",
+      "provider": "Alibaba / Qwen",
+      "summary": "20B MMDiT \u2014 the text-to-image king. Dominates text rendering benchmarks (96.8 vs FLUX's 84.5). Best overall open-source image quality. Needs 24 GB+ RAM.",
+      "sizeBytes": 13100000000,
+      "ramRequirementBytes": 24000000000,
+      "vramRequirementBytes": 16000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/QuantStack/Qwen-Image-GGUF/resolve/main/Qwen_Image-Q4_K_M.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "qwen-image",
+      "defaultSteps": 30,
+      "defaultCfgScale": 2.5,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "defaultResolution": {
+        "width": 1024,
+        "height": 1024
+      },
+      "supportsNegativePrompt": false,
+      "vaeUrl": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors",
+      "llmUrl": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Instruct-GGUF/resolve/main/Qwen2.5-VL-7B-Instruct.Q8_0.gguf"
+    }
+  ],
+  "video": [
+    {
+      "id": "wan2.1-vace-1.3b-q4_0",
+      "name": "Wan 2.1 VACE 1.3B",
+      "category": "video",
+      "provider": "Alibaba",
+      "summary": "Versatile lightweight model supporting text-to-video, reference-to-video, and video-to-video. Same size as the base 1.3B with more capabilities.",
+      "sizeBytes": 866000000,
+      "ramRequirementBytes": 4000000000,
+      "vramRequirementBytes": 3000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "supported",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/calcuis/wan-1.3b-gguf/resolve/main/wan2.1-vace-1.3b-q4_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "wan2.1",
+      "mode": "t2v",
+      "defaultSteps": 30,
+      "defaultCfgScale": 5.0,
+      "supportedResolutions": [
+        {
+          "width": 480,
+          "height": 832
+        },
+        {
+          "width": 832,
+          "height": 480
+        },
+        {
+          "width": 624,
+          "height": 624
+        }
+      ],
+      "defaultResolution": {
+        "width": 832,
+        "height": 480
+      },
+      "defaultFrames": 33,
+      "maxFrames": 81,
+      "defaultFps": 16,
+      "supportsNegativePrompt": true,
+      "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
+      "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors"
+    },
+    {
+      "id": "wan2.1-t2v-1.3b-q4_0",
+      "name": "Wan 2.1 T2V 1.3B",
+      "category": "video",
+      "provider": "Alibaba",
+      "summary": "Smallest video generation model. Generates short 2-second clips from text prompts. Fast enough for desktop, potentially viable on high-end phones.",
+      "sizeBytes": 1200000000,
+      "ramRequirementBytes": 4000000000,
+      "vramRequirementBytes": 3000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "supported",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/calcuis/wan-1.3b-gguf/resolve/main/wan2.1_t2v_1.3b-q4_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "wan2.1",
+      "mode": "t2v",
+      "defaultSteps": 30,
+      "defaultCfgScale": 5.0,
+      "supportedResolutions": [
+        {
+          "width": 480,
+          "height": 832
+        },
+        {
+          "width": 832,
+          "height": 480
+        },
+        {
+          "width": 624,
+          "height": 624
+        }
+      ],
+      "defaultResolution": {
+        "width": 832,
+        "height": 480
+      },
+      "defaultFrames": 33,
+      "maxFrames": 81,
+      "defaultFps": 16,
+      "supportsNegativePrompt": true,
+      "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
+      "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors"
+    },
+    {
+      "id": "wan2.2-ti2v-5b-q4_0",
+      "name": "Wan 2.2 TI2V 5B",
+      "category": "video",
+      "provider": "Alibaba",
+      "summary": "Mid-range text+image-to-video model. Good balance of quality and speed at 5B parameters. Uses Wan 2.2 VAE for improved decoding.",
+      "sizeBytes": 3030000000,
+      "ramRequirementBytes": 8000000000,
+      "vramRequirementBytes": 6000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "supported",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/QuantStack/Wan2.2-TI2V-5B-GGUF/resolve/main/Wan2.2-TI2V-5B-Q4_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "wan2.2",
+      "mode": "t2v",
+      "defaultSteps": 30,
+      "defaultCfgScale": 6.0,
+      "supportedResolutions": [
+        {
+          "width": 480,
+          "height": 832
+        },
+        {
+          "width": 832,
+          "height": 480
+        },
+        {
+          "width": 624,
+          "height": 624
+        }
+      ],
+      "defaultResolution": {
+        "width": 480,
+        "height": 832
+      },
+      "defaultFrames": 33,
+      "maxFrames": 81,
+      "defaultFps": 16,
+      "supportsNegativePrompt": true,
+      "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
+      "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors"
+    },
+    {
+      "id": "wan2.1-t2v-14b-q4_0",
+      "name": "Wan 2.1 T2V 14B",
+      "category": "video",
+      "provider": "Alibaba",
+      "summary": "High-quality text-to-video generation. Produces detailed, coherent 2-4 second clips with strong prompt adherence. Desktop only \u2014 needs significant memory.",
+      "sizeBytes": 8500000000,
+      "ramRequirementBytes": 14000000000,
+      "vramRequirementBytes": 12000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/city96/Wan2.1-T2V-14B-GGUF/resolve/main/wan2.1-t2v-14b-q4_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "wan2.1",
+      "mode": "t2v",
+      "defaultSteps": 30,
+      "defaultCfgScale": 5.0,
+      "supportedResolutions": [
+        {
+          "width": 480,
+          "height": 832
+        },
+        {
+          "width": 832,
+          "height": 480
+        },
+        {
+          "width": 624,
+          "height": 624
+        },
+        {
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "defaultResolution": {
+        "width": 832,
+        "height": 480
+      },
+      "defaultFrames": 33,
+      "maxFrames": 81,
+      "defaultFps": 16,
+      "supportsNegativePrompt": true,
+      "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
+      "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors"
+    },
+    {
+      "id": "wan2.1-vace-14b-q4_0",
+      "name": "Wan 2.1 VACE 14B",
+      "category": "video",
+      "provider": "Alibaba",
+      "summary": "High-quality versatile model supporting text-to-video, reference-to-video, and video-to-video. More capable than the base 14B T2V model.",
+      "sizeBytes": 10300000000,
+      "ramRequirementBytes": 16000000000,
+      "vramRequirementBytes": 14000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/QuantStack/Wan2.1_14B_VACE-GGUF/resolve/main/Wan2.1_14B_VACE-Q4_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "wan2.1",
+      "mode": "t2v",
+      "defaultSteps": 30,
+      "defaultCfgScale": 5.0,
+      "supportedResolutions": [
+        {
+          "width": 480,
+          "height": 832
+        },
+        {
+          "width": 832,
+          "height": 480
+        },
+        {
+          "width": 624,
+          "height": 624
+        },
+        {
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "defaultResolution": {
+        "width": 832,
+        "height": 480
+      },
+      "defaultFrames": 33,
+      "maxFrames": 81,
+      "defaultFps": 16,
+      "supportsNegativePrompt": true,
+      "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
+      "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors"
+    },
+    {
+      "id": "wan2.1-i2v-14b-480p-q4_0",
+      "name": "Wan 2.1 I2V 14B 480P",
+      "category": "video",
+      "provider": "Alibaba",
+      "summary": "Image-to-video model \u2014 animates a still image into a short video clip at 480p. Requires a CLIP vision encoder for image understanding.",
+      "sizeBytes": 10200000000,
+      "ramRequirementBytes": 16000000000,
+      "vramRequirementBytes": 14000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/city96/Wan2.1-I2V-14B-480P-gguf/resolve/main/wan2.1-i2v-14b-480p-q4_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "wan2.1",
+      "mode": "i2v",
+      "defaultSteps": 30,
+      "defaultCfgScale": 5.0,
+      "supportedResolutions": [
+        {
+          "width": 480,
+          "height": 832
+        },
+        {
+          "width": 832,
+          "height": 480
+        },
+        {
+          "width": 624,
+          "height": 624
+        }
+      ],
+      "defaultResolution": {
+        "width": 832,
+        "height": 480
+      },
+      "defaultFrames": 33,
+      "maxFrames": 81,
+      "defaultFps": 16,
+      "supportsNegativePrompt": true,
+      "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
+      "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+      "clipVisionUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors"
+    },
+    {
+      "id": "wan2.1-i2v-14b-720p-q4_0",
+      "name": "Wan 2.1 I2V 14B 720P",
+      "category": "video",
+      "provider": "Alibaba",
+      "summary": "Image-to-video at 720p \u2014 animates a still image into a higher-resolution video. Same architecture as 480P variant but supports larger output.",
+      "sizeBytes": 10200000000,
+      "ramRequirementBytes": 18000000000,
+      "vramRequirementBytes": 16000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/city96/Wan2.1-I2V-14B-720P-gguf/resolve/main/wan2.1-i2v-14b-720p-q4_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "wan2.1",
+      "mode": "i2v",
+      "defaultSteps": 30,
+      "defaultCfgScale": 5.0,
+      "supportedResolutions": [
+        {
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "width": 960,
+          "height": 960
+        },
+        {
+          "width": 480,
+          "height": 832
+        },
+        {
+          "width": 832,
+          "height": 480
+        }
+      ],
+      "defaultResolution": {
+        "width": 1280,
+        "height": 720
+      },
+      "defaultFrames": 33,
+      "maxFrames": 81,
+      "defaultFps": 16,
+      "supportsNegativePrompt": true,
+      "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
+      "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+      "clipVisionUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors"
+    },
+    {
+      "id": "wan2.1-flf2v-14b-720p-q4_0",
+      "name": "Wan 2.1 FLF2V 14B 720P",
+      "category": "video",
+      "provider": "Alibaba",
+      "summary": "First-last-frame-to-video \u2014 provide a start and end image and the model generates the transition video between them. 720p output.",
+      "sizeBytes": 10300000000,
+      "ramRequirementBytes": 18000000000,
+      "vramRequirementBytes": 16000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/city96/Wan2.1-FLF2V-14B-720P-gguf/resolve/main/wan2.1-flf2v-14b-720p-q4_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "wan2.1",
+      "mode": "flf2v",
+      "defaultSteps": 30,
+      "defaultCfgScale": 5.0,
+      "supportedResolutions": [
+        {
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "width": 960,
+          "height": 960
+        },
+        {
+          "width": 480,
+          "height": 832
+        },
+        {
+          "width": 832,
+          "height": 480
+        }
+      ],
+      "defaultResolution": {
+        "width": 1280,
+        "height": 720
+      },
+      "defaultFrames": 33,
+      "maxFrames": 81,
+      "defaultFps": 16,
+      "supportsNegativePrompt": true,
+      "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
+      "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+      "clipVisionUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors"
+    },
+    {
+      "id": "wan2.2-t2v-a14b-q4_0",
+      "name": "Wan 2.2 T2V A14B",
+      "category": "video",
+      "provider": "Alibaba",
+      "summary": "Highest-quality text-to-video. Dual-stage architecture uses separate low-noise and high-noise models for superior coherence and detail. Requires ~20 GB VRAM.",
+      "sizeBytes": 17120000000,
+      "ramRequirementBytes": 24000000000,
+      "vramRequirementBytes": 20000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF/resolve/main/LowNoise/Wan2.2-T2V-A14B-LowNoise-Q4_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "wan2.2",
+      "mode": "t2v",
+      "defaultSteps": 10,
+      "defaultCfgScale": 3.5,
+      "supportedResolutions": [
+        {
+          "width": 480,
+          "height": 832
+        },
+        {
+          "width": 832,
+          "height": 480
+        },
+        {
+          "width": 624,
+          "height": 624
+        },
+        {
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "defaultResolution": {
+        "width": 832,
+        "height": 480
+      },
+      "defaultFrames": 33,
+      "maxFrames": 81,
+      "defaultFps": 16,
+      "supportsNegativePrompt": true,
+      "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
+      "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+      "highNoiseDiffusionModelUrl": "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-T2V-A14B-HighNoise-Q4_0.gguf",
+      "defaultHighNoiseSteps": 8,
+      "defaultHighNoiseCfgScale": 3.5,
+      "defaultMoeBoundary": 0.0
+    },
+    {
+      "id": "wan2.2-i2v-a14b-q4_0",
+      "name": "Wan 2.2 I2V A14B",
+      "category": "video",
+      "provider": "Alibaba",
+      "summary": "Highest-quality image-to-video. Dual-stage architecture animates still images with exceptional motion coherence. Requires ~20 GB VRAM.",
+      "sizeBytes": 17120000000,
+      "ramRequirementBytes": 24000000000,
+      "vramRequirementBytes": 20000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "compatibility": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/LowNoise/Wan2.2-I2V-A14B-LowNoise-Q4_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "wan2.2",
+      "mode": "i2v",
+      "defaultSteps": 10,
+      "defaultCfgScale": 3.5,
+      "supportedResolutions": [
+        {
+          "width": 480,
+          "height": 832
+        },
+        {
+          "width": 832,
+          "height": 480
+        },
+        {
+          "width": 624,
+          "height": 624
+        },
+        {
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "defaultResolution": {
+        "width": 832,
+        "height": 480
+      },
+      "defaultFrames": 33,
+      "maxFrames": 81,
+      "defaultFps": 16,
+      "supportsNegativePrompt": true,
+      "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
+      "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+      "clipVisionUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
+      "highNoiseDiffusionModelUrl": "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-I2V-A14B-HighNoise-Q4_0.gguf",
+      "defaultHighNoiseSteps": 8,
+      "defaultHighNoiseCfgScale": 3.5,
+      "defaultMoeBoundary": 0.0
+    }
+  ],
+  "voice": [
+    {
+      "id": "whisper-tiny",
+      "name": "Whisper Tiny",
+      "type": "stt",
+      "provider": "OpenAI",
+      "summary": "Fastest STT, good for low-end devices. ~39 MB.",
+      "sizeBytes": 39000000,
+      "ramRequirementBytes": 200000000,
+      "format": "gguf",
+      "downloadUrl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.bin",
+      "sha256": "",
+      "supportedPlatforms": [
+        "ios",
+        "android",
+        "macos",
+        "windows"
+      ]
+    },
+    {
+      "id": "whisper-base",
+      "name": "Whisper Base",
+      "type": "stt",
+      "provider": "OpenAI",
+      "summary": "Balanced STT for most phones. ~74 MB.",
+      "sizeBytes": 74000000,
+      "ramRequirementBytes": 300000000,
+      "format": "gguf",
+      "downloadUrl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.bin",
+      "sha256": "",
+      "supportedPlatforms": [
+        "ios",
+        "android",
+        "macos",
+        "windows"
+      ]
+    },
+    {
+      "id": "whisper-small",
+      "name": "Whisper Small",
+      "type": "stt",
+      "provider": "OpenAI",
+      "summary": "Best accuracy for desktop. ~244 MB.",
+      "sizeBytes": 244000000,
+      "ramRequirementBytes": 600000000,
+      "format": "gguf",
+      "downloadUrl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin",
+      "sha256": "",
+      "supportedPlatforms": [
+        "ios",
+        "android",
+        "macos",
+        "windows"
+      ]
+    },
+    {
+      "id": "whisper-medium",
+      "name": "Whisper Medium",
+      "type": "stt",
+      "provider": "OpenAI",
+      "summary": "High accuracy STT for desktop. ~465 MB.",
+      "sizeBytes": 465000000,
+      "ramRequirementBytes": 1000000000,
+      "format": "gguf",
+      "downloadUrl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin",
+      "sha256": "",
+      "supportedPlatforms": [
+        "ios",
+        "android",
+        "macos",
+        "windows"
+      ]
+    },
+    {
+      "id": "whisper-large-v3-turbo",
+      "name": "Whisper Large v3 Turbo",
+      "type": "stt",
+      "provider": "OpenAI",
+      "summary": "Best accuracy STT. Near-human transcription. ~809 MB.",
+      "sizeBytes": 809000000,
+      "ramRequirementBytes": 2000000000,
+      "format": "gguf",
+      "downloadUrl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3-turbo.bin",
+      "sha256": "",
+      "supportedPlatforms": [
+        "ios",
+        "android",
+        "macos",
+        "windows"
+      ]
+    },
+    {
+      "id": "silero-vad-v5",
+      "name": "Silero VAD v5",
+      "type": "vad",
+      "provider": "Silero",
+      "summary": "Voice activity detection. ~2 MB, bundled with the app.",
+      "sizeBytes": 2000000,
+      "ramRequirementBytes": 5000000,
+      "format": "onnx",
+      "downloadUrl": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/silero_vad.onnx",
+      "sha256": "",
+      "supportedPlatforms": [
+        "ios",
+        "android",
+        "macos",
+        "windows"
+      ],
+      "bundled": true
+    },
+    {
+      "id": "kokoro-en-v0_19",
+      "name": "Kokoro TTS (English)",
+      "type": "tts",
+      "provider": "Kokoro",
+      "summary": "High-quality natural-sounding English TTS. Multiple voices. ~82 MB.",
+      "sizeBytes": 82000000,
+      "ramRequirementBytes": 200000000,
+      "format": "onnx",
+      "downloadUrl": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-en-v0_19.tar.bz2",
+      "sha256": "",
+      "supportedPlatforms": [
+        "ios",
+        "android",
+        "macos",
+        "windows"
+      ]
+    },
+    {
+      "id": "kokoro-multi-lang-v1_0",
+      "name": "Kokoro TTS (Multi-language)",
+      "type": "tts",
+      "provider": "Kokoro",
+      "summary": "Natural TTS supporting English, Chinese, and more. ~180 MB.",
+      "sizeBytes": 180000000,
+      "ramRequirementBytes": 400000000,
+      "format": "onnx",
+      "downloadUrl": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-multi-lang-v1_0.tar.bz2",
+      "sha256": "",
+      "supportedPlatforms": [
+        "ios",
+        "android",
+        "macos",
+        "windows"
+      ]
+    },
+    {
+      "id": "piper-en-amy",
+      "name": "Piper English (Amy)",
+      "type": "tts",
+      "provider": "Piper",
+      "summary": "Fast offline English TTS. Lightweight. ~20 MB.",
+      "sizeBytes": 20000000,
+      "ramRequirementBytes": 100000000,
+      "format": "onnx",
+      "downloadUrl": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-en_US-amy-low.tar.bz2",
+      "sha256": "",
+      "supportedPlatforms": [
+        "ios",
+        "android",
+        "macos",
+        "windows"
+      ]
+    }
+  ]
+}
