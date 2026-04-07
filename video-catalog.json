@@ -10,22 +10,36 @@
     "vramRequirementBytes": 3000000000,
     "license": "Apache 2.0",
     "tier": "free",
-    "compatibility": "supported",
     "format": "gguf",
     "source": "hugging-face",
     "downloadUrl": "https://huggingface.co/calcuis/wan-1.3b-gguf/resolve/main/wan2.1-vace-1.3b-q4_0.gguf",
     "sha256": "",
-    "supportedPlatforms": ["macos", "windows"],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
     "architecture": "wan2.1",
     "mode": "t2v",
     "defaultSteps": 30,
     "defaultCfgScale": 5.0,
     "supportedResolutions": [
-      { "width": 480, "height": 832 },
-      { "width": 832, "height": 480 },
-      { "width": 624, "height": 624 }
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      },
+      {
+        "width": 624,
+        "height": 624
+      }
     ],
-    "defaultResolution": { "width": 832, "height": 480 },
+    "defaultResolution": {
+      "width": 832,
+      "height": 480
+    },
     "defaultFrames": 33,
     "maxFrames": 81,
     "defaultFps": 16,
@@ -44,22 +58,36 @@
     "vramRequirementBytes": 3000000000,
     "license": "Apache 2.0",
     "tier": "free",
-    "compatibility": "supported",
     "format": "gguf",
     "source": "hugging-face",
     "downloadUrl": "https://huggingface.co/calcuis/wan-1.3b-gguf/resolve/main/wan2.1_t2v_1.3b-q4_0.gguf",
     "sha256": "",
-    "supportedPlatforms": ["macos", "windows"],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
     "architecture": "wan2.1",
     "mode": "t2v",
     "defaultSteps": 30,
     "defaultCfgScale": 5.0,
     "supportedResolutions": [
-      { "width": 480, "height": 832 },
-      { "width": 832, "height": 480 },
-      { "width": 624, "height": 624 }
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      },
+      {
+        "width": 624,
+        "height": 624
+      }
     ],
-    "defaultResolution": { "width": 832, "height": 480 },
+    "defaultResolution": {
+      "width": 832,
+      "height": 480
+    },
     "defaultFrames": 33,
     "maxFrames": 81,
     "defaultFps": 16,
@@ -78,22 +106,36 @@
     "vramRequirementBytes": 6000000000,
     "license": "Apache 2.0",
     "tier": "free",
-    "compatibility": "supported",
     "format": "gguf",
     "source": "hugging-face",
     "downloadUrl": "https://huggingface.co/QuantStack/Wan2.2-TI2V-5B-GGUF/resolve/main/Wan2.2-TI2V-5B-Q4_0.gguf",
     "sha256": "",
-    "supportedPlatforms": ["macos", "windows"],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
     "architecture": "wan2.2",
     "mode": "t2v",
     "defaultSteps": 30,
     "defaultCfgScale": 6.0,
     "supportedResolutions": [
-      { "width": 480, "height": 832 },
-      { "width": 832, "height": 480 },
-      { "width": 624, "height": 624 }
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      },
+      {
+        "width": 624,
+        "height": 624
+      }
     ],
-    "defaultResolution": { "width": 480, "height": 832 },
+    "defaultResolution": {
+      "width": 480,
+      "height": 832
+    },
     "defaultFrames": 33,
     "maxFrames": 81,
     "defaultFps": 16,
@@ -112,24 +154,44 @@
     "vramRequirementBytes": 12000000000,
     "license": "Apache 2.0",
     "tier": "free",
-    "compatibility": "heavy",
     "format": "gguf",
     "source": "hugging-face",
     "downloadUrl": "https://huggingface.co/city96/Wan2.1-T2V-14B-GGUF/resolve/main/wan2.1-t2v-14b-q4_0.gguf",
     "sha256": "",
-    "supportedPlatforms": ["macos", "windows"],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
     "architecture": "wan2.1",
     "mode": "t2v",
     "defaultSteps": 30,
     "defaultCfgScale": 5.0,
     "supportedResolutions": [
-      { "width": 480, "height": 832 },
-      { "width": 832, "height": 480 },
-      { "width": 624, "height": 624 },
-      { "width": 720, "height": 1280 },
-      { "width": 1280, "height": 720 }
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      },
+      {
+        "width": 624,
+        "height": 624
+      },
+      {
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "width": 1280,
+        "height": 720
+      }
     ],
-    "defaultResolution": { "width": 832, "height": 480 },
+    "defaultResolution": {
+      "width": 832,
+      "height": 480
+    },
     "defaultFrames": 33,
     "maxFrames": 81,
     "defaultFps": 16,
@@ -148,24 +210,44 @@
     "vramRequirementBytes": 14000000000,
     "license": "Apache 2.0",
     "tier": "free",
-    "compatibility": "heavy",
     "format": "gguf",
     "source": "hugging-face",
     "downloadUrl": "https://huggingface.co/QuantStack/Wan2.1_14B_VACE-GGUF/resolve/main/Wan2.1_14B_VACE-Q4_0.gguf",
     "sha256": "",
-    "supportedPlatforms": ["macos", "windows"],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
     "architecture": "wan2.1",
     "mode": "t2v",
     "defaultSteps": 30,
     "defaultCfgScale": 5.0,
     "supportedResolutions": [
-      { "width": 480, "height": 832 },
-      { "width": 832, "height": 480 },
-      { "width": 624, "height": 624 },
-      { "width": 720, "height": 1280 },
-      { "width": 1280, "height": 720 }
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      },
+      {
+        "width": 624,
+        "height": 624
+      },
+      {
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "width": 1280,
+        "height": 720
+      }
     ],
-    "defaultResolution": { "width": 832, "height": 480 },
+    "defaultResolution": {
+      "width": 832,
+      "height": 480
+    },
     "defaultFrames": 33,
     "maxFrames": 81,
     "defaultFps": 16,
@@ -184,22 +266,36 @@
     "vramRequirementBytes": 14000000000,
     "license": "Apache 2.0",
     "tier": "free",
-    "compatibility": "heavy",
     "format": "gguf",
     "source": "hugging-face",
     "downloadUrl": "https://huggingface.co/city96/Wan2.1-I2V-14B-480P-gguf/resolve/main/wan2.1-i2v-14b-480p-q4_0.gguf",
     "sha256": "",
-    "supportedPlatforms": ["macos", "windows"],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
     "architecture": "wan2.1",
     "mode": "i2v",
     "defaultSteps": 30,
     "defaultCfgScale": 5.0,
     "supportedResolutions": [
-      { "width": 480, "height": 832 },
-      { "width": 832, "height": 480 },
-      { "width": 624, "height": 624 }
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      },
+      {
+        "width": 624,
+        "height": 624
+      }
     ],
-    "defaultResolution": { "width": 832, "height": 480 },
+    "defaultResolution": {
+      "width": 832,
+      "height": 480
+    },
     "defaultFrames": 33,
     "maxFrames": 81,
     "defaultFps": 16,
@@ -219,24 +315,44 @@
     "vramRequirementBytes": 16000000000,
     "license": "Apache 2.0",
     "tier": "free",
-    "compatibility": "heavy",
     "format": "gguf",
     "source": "hugging-face",
     "downloadUrl": "https://huggingface.co/city96/Wan2.1-I2V-14B-720P-gguf/resolve/main/wan2.1-i2v-14b-720p-q4_0.gguf",
     "sha256": "",
-    "supportedPlatforms": ["macos", "windows"],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
     "architecture": "wan2.1",
     "mode": "i2v",
     "defaultSteps": 30,
     "defaultCfgScale": 5.0,
     "supportedResolutions": [
-      { "width": 720, "height": 1280 },
-      { "width": 1280, "height": 720 },
-      { "width": 960, "height": 960 },
-      { "width": 480, "height": 832 },
-      { "width": 832, "height": 480 }
+      {
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "width": 960,
+        "height": 960
+      },
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      }
     ],
-    "defaultResolution": { "width": 1280, "height": 720 },
+    "defaultResolution": {
+      "width": 1280,
+      "height": 720
+    },
     "defaultFrames": 33,
     "maxFrames": 81,
     "defaultFps": 16,
@@ -256,24 +372,44 @@
     "vramRequirementBytes": 16000000000,
     "license": "Apache 2.0",
     "tier": "free",
-    "compatibility": "heavy",
     "format": "gguf",
     "source": "hugging-face",
     "downloadUrl": "https://huggingface.co/city96/Wan2.1-FLF2V-14B-720P-gguf/resolve/main/wan2.1-flf2v-14b-720p-q4_0.gguf",
     "sha256": "",
-    "supportedPlatforms": ["macos", "windows"],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
     "architecture": "wan2.1",
     "mode": "flf2v",
     "defaultSteps": 30,
     "defaultCfgScale": 5.0,
     "supportedResolutions": [
-      { "width": 720, "height": 1280 },
-      { "width": 1280, "height": 720 },
-      { "width": 960, "height": 960 },
-      { "width": 480, "height": 832 },
-      { "width": 832, "height": 480 }
+      {
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "width": 960,
+        "height": 960
+      },
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      }
     ],
-    "defaultResolution": { "width": 1280, "height": 720 },
+    "defaultResolution": {
+      "width": 1280,
+      "height": 720
+    },
     "defaultFrames": 33,
     "maxFrames": 81,
     "defaultFps": 16,
@@ -293,24 +429,44 @@
     "vramRequirementBytes": 20000000000,
     "license": "Apache 2.0",
     "tier": "free",
-    "compatibility": "heavy",
     "format": "gguf",
     "source": "hugging-face",
     "downloadUrl": "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF/resolve/main/LowNoise/Wan2.2-T2V-A14B-LowNoise-Q4_0.gguf",
     "sha256": "",
-    "supportedPlatforms": ["macos", "windows"],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
     "architecture": "wan2.2",
     "mode": "t2v",
     "defaultSteps": 10,
     "defaultCfgScale": 3.5,
     "supportedResolutions": [
-      { "width": 480, "height": 832 },
-      { "width": 832, "height": 480 },
-      { "width": 624, "height": 624 },
-      { "width": 720, "height": 1280 },
-      { "width": 1280, "height": 720 }
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      },
+      {
+        "width": 624,
+        "height": 624
+      },
+      {
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "width": 1280,
+        "height": 720
+      }
     ],
-    "defaultResolution": { "width": 832, "height": 480 },
+    "defaultResolution": {
+      "width": 832,
+      "height": 480
+    },
     "defaultFrames": 33,
     "maxFrames": 81,
     "defaultFps": 16,
@@ -333,24 +489,44 @@
     "vramRequirementBytes": 20000000000,
     "license": "Apache 2.0",
     "tier": "free",
-    "compatibility": "heavy",
     "format": "gguf",
     "source": "hugging-face",
     "downloadUrl": "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/LowNoise/Wan2.2-I2V-A14B-LowNoise-Q4_0.gguf",
     "sha256": "",
-    "supportedPlatforms": ["macos", "windows"],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
     "architecture": "wan2.2",
     "mode": "i2v",
     "defaultSteps": 10,
     "defaultCfgScale": 3.5,
     "supportedResolutions": [
-      { "width": 480, "height": 832 },
-      { "width": 832, "height": 480 },
-      { "width": 624, "height": 624 },
-      { "width": 720, "height": 1280 },
-      { "width": 1280, "height": 720 }
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      },
+      {
+        "width": 624,
+        "height": 624
+      },
+      {
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "width": 1280,
+        "height": 720
+      }
     ],
-    "defaultResolution": { "width": 832, "height": 480 },
+    "defaultResolution": {
+      "width": 832,
+      "height": 480
+    },
     "defaultFrames": 33,
     "maxFrames": 81,
     "defaultFps": 16,
