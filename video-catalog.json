@@ -45,7 +45,9 @@
     "defaultFps": 16,
     "supportsNegativePrompt": true,
     "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
-    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors"
+    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+    "weight": "light",
+    "defaultQuantLevel": "Q4_0"
   },
   {
     "id": "wan2.1-t2v-1.3b-q4_0",
@@ -93,7 +95,9 @@
     "defaultFps": 16,
     "supportsNegativePrompt": true,
     "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
-    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors"
+    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+    "weight": "light",
+    "defaultQuantLevel": "Q4_0"
   },
   {
     "id": "wan2.2-ti2v-5b-q4_0",
@@ -141,14 +145,16 @@
     "defaultFps": 16,
     "supportsNegativePrompt": true,
     "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
-    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors"
+    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors",
+    "weight": "medium",
+    "defaultQuantLevel": "Q4_0"
   },
   {
     "id": "wan2.1-t2v-14b-q4_0",
     "name": "Wan 2.1 T2V 14B",
     "category": "video",
     "provider": "Alibaba",
-    "summary": "High-quality text-to-video generation. Produces detailed, coherent 2-4 second clips with strong prompt adherence. Desktop only — needs significant memory.",
+    "summary": "High-quality text-to-video generation. Produces detailed, coherent 2-4 second clips with strong prompt adherence. Desktop only \u2014 needs significant memory.",
     "sizeBytes": 8500000000,
     "ramRequirementBytes": 14000000000,
     "vramRequirementBytes": 12000000000,
@@ -197,7 +203,9 @@
     "defaultFps": 16,
     "supportsNegativePrompt": true,
     "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
-    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors"
+    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+    "weight": "heavy",
+    "defaultQuantLevel": "Q4_0"
   },
   {
     "id": "wan2.1-vace-14b-q4_0",
@@ -253,14 +261,16 @@
     "defaultFps": 16,
     "supportsNegativePrompt": true,
     "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
-    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors"
+    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+    "weight": "heavy",
+    "defaultQuantLevel": "Q4_0"
   },
   {
     "id": "wan2.1-i2v-14b-480p-q4_0",
     "name": "Wan 2.1 I2V 14B 480P",
     "category": "video",
     "provider": "Alibaba",
-    "summary": "Image-to-video model — animates a still image into a short video clip at 480p. Requires a CLIP vision encoder for image understanding.",
+    "summary": "Image-to-video model \u2014 animates a still image into a short video clip at 480p. Requires a CLIP vision encoder for image understanding.",
     "sizeBytes": 10200000000,
     "ramRequirementBytes": 16000000000,
     "vramRequirementBytes": 14000000000,
@@ -302,14 +312,16 @@
     "supportsNegativePrompt": true,
     "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
     "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
-    "clipVisionUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors"
+    "clipVisionUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
+    "weight": "heavy",
+    "defaultQuantLevel": "Q4_0"
   },
   {
     "id": "wan2.1-i2v-14b-720p-q4_0",
     "name": "Wan 2.1 I2V 14B 720P",
     "category": "video",
     "provider": "Alibaba",
-    "summary": "Image-to-video at 720p — animates a still image into a higher-resolution video. Same architecture as 480P variant but supports larger output.",
+    "summary": "Image-to-video at 720p \u2014 animates a still image into a higher-resolution video. Same architecture as 480P variant but supports larger output.",
     "sizeBytes": 10200000000,
     "ramRequirementBytes": 18000000000,
     "vramRequirementBytes": 16000000000,
@@ -359,14 +371,16 @@
     "supportsNegativePrompt": true,
     "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
     "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
-    "clipVisionUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors"
+    "clipVisionUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
+    "weight": "massive",
+    "defaultQuantLevel": "Q4_0"
   },
   {
     "id": "wan2.1-flf2v-14b-720p-q4_0",
     "name": "Wan 2.1 FLF2V 14B 720P",
     "category": "video",
     "provider": "Alibaba",
-    "summary": "First-last-frame-to-video — provide a start and end image and the model generates the transition video between them. 720p output.",
+    "summary": "First-last-frame-to-video \u2014 provide a start and end image and the model generates the transition video between them. 720p output.",
     "sizeBytes": 10300000000,
     "ramRequirementBytes": 18000000000,
     "vramRequirementBytes": 16000000000,
@@ -416,7 +430,9 @@
     "supportsNegativePrompt": true,
     "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
     "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
-    "clipVisionUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors"
+    "clipVisionUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
+    "weight": "massive",
+    "defaultQuantLevel": "Q4_0"
   },
   {
     "id": "wan2.2-t2v-a14b-q4_0",
@@ -476,7 +492,9 @@
     "highNoiseDiffusionModelUrl": "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-T2V-A14B-HighNoise-Q4_0.gguf",
     "defaultHighNoiseSteps": 8,
     "defaultHighNoiseCfgScale": 3.5,
-    "defaultMoeBoundary": 0.0
+    "defaultMoeBoundary": 0.0,
+    "weight": "massive",
+    "defaultQuantLevel": "Q4_0"
   },
   {
     "id": "wan2.2-i2v-a14b-q4_0",
@@ -537,6 +555,8 @@
     "highNoiseDiffusionModelUrl": "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-I2V-A14B-HighNoise-Q4_0.gguf",
     "defaultHighNoiseSteps": 8,
     "defaultHighNoiseCfgScale": 3.5,
-    "defaultMoeBoundary": 0.0
+    "defaultMoeBoundary": 0.0,
+    "weight": "massive",
+    "defaultQuantLevel": "Q4_0"
   }
 ]

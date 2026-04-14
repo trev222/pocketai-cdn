@@ -5,13 +5,13 @@
       "name": "FHDR Uncensored",
       "category": "image",
       "provider": "kpsss34",
-      "summary": "Uncensored FLUX.1 Dev fine-tune with safety filters removed. 11.9B parameters quantized to Q4_K_M for a good balance of quality and size. Gated model \u2014 requires a HuggingFace token.",
+      "summary": "Uncensored FLUX.1 Dev fine-tune with safety filters removed. 11.9B parameters quantized to Q4_K_M for a good balance of quality and size. Gated model — requires a HuggingFace token.",
       "sizeBytes": 6930000000,
       "ramRequirementBytes": 16000000000,
       "vramRequirementBytes": 12000000000,
       "license": "Other",
       "tier": "free",
-      "compatibility": "heavy",
+      "weight": "heavy",
       "format": "gguf",
       "source": "hugging-face",
       "downloadUrl": "https://huggingface.co/kpsss34/FHDR_Uncensored/resolve/main/FHDR_ComfyUI-Q4_K_M.gguf",
@@ -31,40 +31,18 @@
       "supportsNegativePrompt": false,
       "clipLUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/clip_l.safetensors",
       "t5xxlUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/t5xxl_fp16.safetensors",
-      "gated": true
-    },
-    {
-      "id": "fhdr-uncensored-q8_0",
-      "name": "FHDR Uncensored Q8",
-      "category": "image",
-      "provider": "kpsss34",
-      "summary": "Premium quantization of the uncensored FLUX.1 Dev fine-tune. Near-lossless 11.9B model for the highest quality. 24 GB+ RAM recommended. Gated model \u2014 requires a HuggingFace token.",
-      "sizeBytes": 12710000000,
-      "ramRequirementBytes": 24000000000,
-      "vramRequirementBytes": 16000000000,
-      "license": "Other",
-      "tier": "free",
-      "compatibility": "heavy",
-      "format": "gguf",
-      "source": "hugging-face",
-      "downloadUrl": "https://huggingface.co/kpsss34/FHDR_Uncensored/resolve/main/FHDR_ComfyUI-Q8_0.gguf",
-      "sha256": "",
-      "supportedPlatforms": ["macos", "windows"],
-      "architecture": "flux",
-      "defaultSteps": 50,
-      "defaultCfgScale": 3.5,
-      "supportedResolutions": [
-        { "width": 512, "height": 512 },
-        { "width": 768, "height": 768 },
-        { "width": 1024, "height": 1024 },
-        { "width": 768, "height": 1024 },
-        { "width": 1024, "height": 768 }
-      ],
-      "defaultResolution": { "width": 1024, "height": 1024 },
-      "supportsNegativePrompt": false,
-      "clipLUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/clip_l.safetensors",
-      "t5xxlUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/t5xxl_fp16.safetensors",
-      "gated": true
+      "gated": true,
+      "defaultQuantLevel": "Q4_K_M",
+      "quantVariants": [
+        {
+          "quantLevel": "Q8_0",
+          "sizeBytes": 12710000000,
+          "ramRequirementBytes": 24000000000,
+          "vramRequirementBytes": 16000000000,
+          "downloadUrl": "https://huggingface.co/kpsss34/FHDR_Uncensored/resolve/main/FHDR_ComfyUI-Q8_0.gguf",
+          "sha256": ""
+        }
+      ]
     }
   ],
   "video": [],

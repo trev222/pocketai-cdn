@@ -41,7 +41,9 @@
       "width": 512,
       "height": 512
     },
-    "supportsNegativePrompt": true
+    "supportsNegativePrompt": true,
+    "weight": "light",
+    "defaultQuantLevel": "Q8_0"
   },
   {
     "id": "sdxl-turbo-q4_0",
@@ -88,7 +90,9 @@
       "width": 512,
       "height": 512
     },
-    "supportsNegativePrompt": false
+    "supportsNegativePrompt": false,
+    "weight": "medium",
+    "defaultQuantLevel": "Q4_0"
   },
   {
     "id": "sd3.5-medium-q4_0",
@@ -140,7 +144,9 @@
     },
     "supportsNegativePrompt": true,
     "clipLUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/clip_l.safetensors",
-    "t5xxlUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/t5xxl_fp16.safetensors"
+    "t5xxlUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/t5xxl_fp16.safetensors",
+    "weight": "medium",
+    "defaultQuantLevel": "Q4_0"
   },
   {
     "id": "sdxl-lightning-4step-q8_0",
@@ -190,14 +196,16 @@
       "width": 1024,
       "height": 1024
     },
-    "supportsNegativePrompt": false
+    "supportsNegativePrompt": false,
+    "weight": "medium",
+    "defaultQuantLevel": "Q8_0"
   },
   {
     "id": "z-image-turbo-q4_0",
     "name": "Z-Image Turbo",
     "category": "image",
     "provider": "Z-Image",
-    "summary": "Blazing fast 6B model — 10x faster than FLUX with ~95% of the quality. Excellent bilingual text rendering (EN/CN). Only 3.7 GB. Apache 2.0.",
+    "summary": "Blazing fast 6B model \u2014 10x faster than FLUX with ~95% of the quality. Excellent bilingual text rendering (EN/CN). Only 3.7 GB. Apache 2.0.",
     "sizeBytes": 3680000000,
     "ramRequirementBytes": 8000000000,
     "vramRequirementBytes": 6000000000,
@@ -242,7 +250,9 @@
     },
     "supportsNegativePrompt": false,
     "vaeUrl": "https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors",
-    "llmUrl": "https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF/resolve/main/Qwen3-4B-Instruct-2507-Q4_K_M.gguf"
+    "llmUrl": "https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF/resolve/main/Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+    "weight": "medium",
+    "defaultQuantLevel": "Q4_0"
   },
   {
     "id": "sdxl-base-1.0-q8_0",
@@ -292,7 +302,9 @@
       "width": 1024,
       "height": 1024
     },
-    "supportsNegativePrompt": true
+    "supportsNegativePrompt": true,
+    "weight": "large",
+    "defaultQuantLevel": "Q8_0"
   },
   {
     "id": "sd3.5-large-q4_0",
@@ -344,7 +356,9 @@
     },
     "supportsNegativePrompt": true,
     "clipLUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/clip_l.safetensors",
-    "t5xxlUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/t5xxl_fp16.safetensors"
+    "t5xxlUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/t5xxl_fp16.safetensors",
+    "weight": "large",
+    "defaultQuantLevel": "Q4_0"
   },
   {
     "id": "sd3.5-large-turbo-q4_0",
@@ -396,7 +410,9 @@
     },
     "supportsNegativePrompt": false,
     "clipLUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/clip_l.safetensors",
-    "t5xxlUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/t5xxl_fp16.safetensors"
+    "t5xxlUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/t5xxl_fp16.safetensors",
+    "weight": "large",
+    "defaultQuantLevel": "Q4_0"
   },
   {
     "id": "z-image-base-q8_0",
@@ -448,14 +464,16 @@
     },
     "supportsNegativePrompt": true,
     "vaeUrl": "https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors",
-    "llmUrl": "https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF/resolve/main/Qwen3-4B-Instruct-2507-Q4_K_M.gguf"
+    "llmUrl": "https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF/resolve/main/Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+    "weight": "large",
+    "defaultQuantLevel": "Q8_0"
   },
   {
     "id": "flux1-schnell-q4_0",
     "name": "FLUX.1 Schnell",
     "category": "image",
     "provider": "Black Forest Labs",
-    "summary": "State-of-the-art image generation in just 4 steps. Exceptional prompt understanding and photorealistic output. Desktop only — needs significant memory.",
+    "summary": "State-of-the-art image generation in just 4 steps. Exceptional prompt understanding and photorealistic output. Desktop only \u2014 needs significant memory.",
     "sizeBytes": 6800000000,
     "ramRequirementBytes": 16000000000,
     "vramRequirementBytes": 12000000000,
@@ -500,7 +518,19 @@
     },
     "supportsNegativePrompt": false,
     "clipLUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/clip_l.safetensors",
-    "t5xxlUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/t5xxl_fp16.safetensors"
+    "t5xxlUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/t5xxl_fp16.safetensors",
+    "weight": "heavy",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 12700000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 16000000000,
+        "downloadUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/flux1-schnell-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "flux1-dev-q4_0",
@@ -552,7 +582,19 @@
     },
     "supportsNegativePrompt": false,
     "clipLUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/clip_l.safetensors",
-    "t5xxlUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/t5xxl_fp16.safetensors"
+    "t5xxlUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/t5xxl_fp16.safetensors",
+    "weight": "heavy",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 12700000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 16000000000,
+        "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "chroma1-hd-flash-q4_0",
@@ -604,7 +646,9 @@
     },
     "supportsNegativePrompt": true,
     "vaeUrl": "https://huggingface.co/lodestones/Chroma/resolve/main/ae.safetensors",
-    "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
+    "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
+    "weight": "heavy",
+    "defaultQuantLevel": "Q4_0"
   },
   {
     "id": "chroma1-hd-q4_0",
@@ -656,14 +700,26 @@
     },
     "supportsNegativePrompt": true,
     "vaeUrl": "https://huggingface.co/lodestones/Chroma/resolve/main/ae.safetensors",
-    "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
+    "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
+    "weight": "heavy",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 9740000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 16000000000,
+        "downloadUrl": "https://huggingface.co/silveroxides/Chroma1-HD-GGUF/resolve/main/Chroma1-HD-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "ovis-image-7b-q4_0",
     "name": "Ovis-Image 7B",
     "category": "image",
     "provider": "Alibaba AIDC-AI",
-    "summary": "7B model that punches above its weight — text rendering accuracy (0.92) beats 20B Qwen-Image (0.83) and GPT-4o (0.86). Built on FLUX architecture. Great for typography-heavy content.",
+    "summary": "7B model that punches above its weight \u2014 text rendering accuracy (0.92) beats 20B Qwen-Image (0.83) and GPT-4o (0.86). Built on FLUX architecture. Great for typography-heavy content.",
     "sizeBytes": 4200000000,
     "ramRequirementBytes": 16000000000,
     "vramRequirementBytes": 12000000000,
@@ -708,170 +764,16 @@
     },
     "supportsNegativePrompt": false,
     "vaeUrl": "https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors",
-    "llmUrl": "https://huggingface.co/Comfy-Org/Ovis-Image/resolve/main/split_files/text_encoders/ovis_2.5.safetensors"
-  },
-  {
-    "id": "flux1-schnell-q8_0",
-    "name": "FLUX.1 Schnell Q8",
-    "category": "image",
-    "provider": "Black Forest Labs",
-    "summary": "Higher-fidelity quantization of FLUX.1 Schnell. Same blazing 4-step generation with noticeably sharper details. RAM is the bottleneck — 24 GB+ recommended.",
-    "sizeBytes": 12700000000,
-    "ramRequirementBytes": 24000000000,
-    "vramRequirementBytes": 16000000000,
-    "license": "Apache 2.0",
-    "tier": "free",
-    "format": "gguf",
-    "source": "hugging-face",
-    "downloadUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/flux1-schnell-Q8_0.gguf",
-    "sha256": "",
-    "supportedPlatforms": [
-      "macos",
-      "windows"
-    ],
-    "architecture": "flux",
-    "defaultSteps": 4,
-    "defaultCfgScale": 1.0,
-    "supportedResolutions": [
-      {
-        "width": 512,
-        "height": 512
-      },
-      {
-        "width": 768,
-        "height": 768
-      },
-      {
-        "width": 1024,
-        "height": 1024
-      },
-      {
-        "width": 768,
-        "height": 1024
-      },
-      {
-        "width": 1024,
-        "height": 768
-      }
-    ],
-    "defaultResolution": {
-      "width": 1024,
-      "height": 1024
-    },
-    "supportsNegativePrompt": false,
-    "clipLUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/clip_l.safetensors",
-    "t5xxlUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/t5xxl_fp16.safetensors"
-  },
-  {
-    "id": "flux1-dev-q8_0",
-    "name": "FLUX.1 Dev Q8",
-    "category": "image",
-    "provider": "Black Forest Labs",
-    "summary": "Premium quantization of FLUX.1 Dev. The best local image generation quality available — photorealistic with near-lossless detail. RAM is the bottleneck — 24 GB+ recommended. Non-commercial license.",
-    "sizeBytes": 12700000000,
-    "ramRequirementBytes": 24000000000,
-    "vramRequirementBytes": 16000000000,
-    "license": "FLUX.1 [dev] Non-Commercial License",
-    "tier": "free",
-    "format": "gguf",
-    "source": "hugging-face",
-    "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q8_0.gguf",
-    "sha256": "",
-    "supportedPlatforms": [
-      "macos",
-      "windows"
-    ],
-    "architecture": "flux",
-    "defaultSteps": 50,
-    "defaultCfgScale": 3.5,
-    "supportedResolutions": [
-      {
-        "width": 512,
-        "height": 512
-      },
-      {
-        "width": 768,
-        "height": 768
-      },
-      {
-        "width": 1024,
-        "height": 1024
-      },
-      {
-        "width": 768,
-        "height": 1024
-      },
-      {
-        "width": 1024,
-        "height": 768
-      }
-    ],
-    "defaultResolution": {
-      "width": 1024,
-      "height": 1024
-    },
-    "supportsNegativePrompt": false,
-    "clipLUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/clip_l.safetensors",
-    "t5xxlUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/t5xxl_fp16.safetensors"
-  },
-  {
-    "id": "chroma1-hd-q8_0",
-    "name": "Chroma1 HD Q8",
-    "category": "image",
-    "provider": "Lodestone / CircleStone",
-    "summary": "Premium quantization of Chroma1 HD. Near-lossless 8.9B FLUX-based model for the highest local image quality. RAM is the bottleneck — 24 GB+ recommended. Apache 2.0.",
-    "sizeBytes": 9740000000,
-    "ramRequirementBytes": 24000000000,
-    "vramRequirementBytes": 16000000000,
-    "license": "Apache 2.0",
-    "tier": "free",
-    "format": "gguf",
-    "source": "hugging-face",
-    "downloadUrl": "https://huggingface.co/silveroxides/Chroma1-HD-GGUF/resolve/main/Chroma1-HD-Q8_0.gguf",
-    "sha256": "",
-    "supportedPlatforms": [
-      "macos",
-      "windows"
-    ],
-    "architecture": "chroma",
-    "defaultSteps": 40,
-    "defaultCfgScale": 3.0,
-    "supportedResolutions": [
-      {
-        "width": 512,
-        "height": 512
-      },
-      {
-        "width": 768,
-        "height": 768
-      },
-      {
-        "width": 1024,
-        "height": 1024
-      },
-      {
-        "width": 768,
-        "height": 1024
-      },
-      {
-        "width": 1024,
-        "height": 768
-      }
-    ],
-    "defaultResolution": {
-      "width": 1024,
-      "height": 1024
-    },
-    "supportsNegativePrompt": true,
-    "vaeUrl": "https://huggingface.co/lodestones/Chroma/resolve/main/ae.safetensors",
-    "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
+    "llmUrl": "https://huggingface.co/Comfy-Org/Ovis-Image/resolve/main/split_files/text_encoders/ovis_2.5.safetensors",
+    "weight": "heavy",
+    "defaultQuantLevel": "Q4_0"
   },
   {
     "id": "chroma1-radiance-v0.4-q8_0",
     "name": "Chroma1 Radiance",
     "category": "image",
     "provider": "Lodestone / CircleStone",
-    "summary": "10B pixel-space diffusion model — no VAE needed. Works directly on image pixels for exceptional detail and coherence. 40-step generation. Apache 2.0.",
+    "summary": "10B pixel-space diffusion model \u2014 no VAE needed. Works directly on image pixels for exceptional detail and coherence. 40-step generation. Apache 2.0.",
     "sizeBytes": 10400000000,
     "ramRequirementBytes": 24000000000,
     "vramRequirementBytes": 16000000000,
@@ -915,14 +817,16 @@
       "height": 1024
     },
     "supportsNegativePrompt": true,
-    "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
+    "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
+    "weight": "massive",
+    "defaultQuantLevel": "Q8_0"
   },
   {
     "id": "qwen-image-q4_k_m",
     "name": "Qwen-Image",
     "category": "image",
     "provider": "Alibaba / Qwen",
-    "summary": "20B MMDiT — the text-to-image king. Dominates text rendering benchmarks (96.8 vs FLUX's 84.5). Best overall open-source image quality. Needs 24 GB+ RAM.",
+    "summary": "20B MMDiT \u2014 the text-to-image king. Dominates text rendering benchmarks (96.8 vs FLUX's 84.5). Best overall open-source image quality. Needs 24 GB+ RAM.",
     "sizeBytes": 13100000000,
     "ramRequirementBytes": 24000000000,
     "vramRequirementBytes": 16000000000,
@@ -967,6 +871,8 @@
     },
     "supportsNegativePrompt": false,
     "vaeUrl": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors",
-    "llmUrl": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Instruct-GGUF/resolve/main/Qwen2.5-VL-7B-Instruct.Q8_0.gguf"
+    "llmUrl": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Instruct-GGUF/resolve/main/Qwen2.5-VL-7B-Instruct.Q8_0.gguf",
+    "weight": "massive",
+    "defaultQuantLevel": "Q4_K_M"
   }
 ]

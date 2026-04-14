@@ -108,6 +108,49 @@ There are two copies of the model catalogs that must stay in sync:
 
 When adding or updating models, update `catalog.json` first, then sync `manifest.json` and the local `catalog-manifest.json` to match.
 
+## App Store vs Website Builds
+
+Gated models (`gated-catalog.json`) are **completely stripped** from app store binaries at compile time. The defaults are all "website" (gated content visible) — flip the flag only when building for app stores.
+
+### Desktop (Next.js / Tauri)
+
+```bash
+# Website build (default) — gated content included
+npm run build
+
+# App store build — gated content stripped from JS bundle
+NEXT_PUBLIC_FOR_APP_STORES=true npm run build
+```
+
+Config: `apps/app/app/app-config.ts` reads `process.env.NEXT_PUBLIC_FOR_APP_STORES`. Next.js inlines this at build time, so the minifier removes the dead branch and the `gated-catalog.json` URL never appears in the bundle.
+
+### Android
+
+```bash
+# Website build (default)
+./gradlew assembleRelease
+
+# App store build — R8 strips dead branch in release builds
+./gradlew assembleRelease -PFOR_APP_STORES=true
+```
+
+Or set in `gradle.properties`:
+```properties
+FOR_APP_STORES=true
+```
+
+Config: `app/build.gradle.kts` sets `BuildConfig.FOR_APP_STORES`. R8 (`isMinifyEnabled = true`) eliminates dead code in release builds.
+
+### iOS
+
+```
+Website build (default):  No extra flags needed.
+App store build:          Xcode → Target → Build Settings →
+                          "Active Compilation Conditions" → add FOR_APP_STORES
+```
+
+Config: `PocketAI/Services/AppConfig.swift` uses `#if FOR_APP_STORES` compiler directives. Code inside `#if !FOR_APP_STORES ... #endif` is not compiled into the binary at all.
+
 ## Usage in Apps
 
 The desktop/web app references the CDN base URL in `apps/app/app/api-client.ts`:

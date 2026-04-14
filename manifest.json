@@ -2,6 +2,30 @@
   "version": 1,
   "language": [
     {
+      "id": "bonsai-1.7b",
+      "name": "Bonsai 1.7B",
+      "category": "language",
+      "provider": "Prism ML",
+      "summary": "Ultra-compressed 1-bit 1.7B model (248 MB). 14x smaller than FP16. Runs on virtually any device. Great for ultra-low storage or as a fast fallback.",
+      "sizeBytes": 248302272,
+      "ramRequirementBytes": 1000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "weight": "tiny",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/prism-ml/Bonsai-1.7B-gguf/resolve/91212a7af6eb124172f8261328d35ec5370a2642/Bonsai-1.7B.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows"
+      ],
+      "canReadFiles": true,
+      "contextLength": 32768
+    },
+    {
       "id": "qwen3.5-0.8b",
       "name": "Qwen3.5 0.8B",
       "category": "language",
@@ -134,33 +158,6 @@
         "tool-calling"
       ],
       "canReadFiles": true,
-      "contextLength": 131072
-    },
-    {
-      "id": "gemma-3-4b-it",
-      "name": "Gemma 3 4B IT (Vision)",
-      "category": "language",
-      "provider": "Google / Unsloth",
-      "summary": "Compact vision-language model that can understand images and text. Runs on desktop and high-end mobile. First vision model in the catalog.",
-      "sizeBytes": 2673868800,
-      "ramRequirementBytes": 5000000000,
-      "license": "Gemma",
-      "tier": "free",
-      "weight": "light",
-      "format": "gguf",
-      "source": "hugging-face",
-      "downloadUrl": "https://huggingface.co/unsloth/gemma-3-4b-it-GGUF/resolve/main/gemma-3-4b-it-Q4_K_M.gguf",
-      "sha256": "",
-      "supportedPlatforms": [
-        "macos",
-        "windows"
-      ],
-      "capabilities": [
-        "vision"
-      ],
-      "canReadFiles": true,
-      "mmprojUrl": "https://huggingface.co/unsloth/gemma-3-4b-it-GGUF/resolve/main/mmproj-F16.gguf",
-      "mmprojSha256": "",
       "contextLength": 131072
     },
     {
@@ -331,6 +328,34 @@
       "contextLength": 131072
     },
     {
+      "id": "gemma-4-e4b-tuned",
+      "name": "Gemma 4 E4B Tuned",
+      "category": "language",
+      "provider": "HauhauCS",
+      "summary": "Gemma 4 E4B variant tuned for more direct, less filtered replies. Natively multimodal (text, image, video, audio) with 128K context.",
+      "sizeBytes": 5335285728,
+      "ramRequirementBytes": 8500000000,
+      "license": "Gemma",
+      "tier": "free",
+      "weight": "medium",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive/resolve/45b6a334b4bcd1d7f37179df58b3b1d66a184e5d/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive/resolve/main/mmproj-Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-f16.gguf",
+      "contextLength": 131072
+    },
+    {
       "id": "qwen3.5-9b-tuned-hauhaucs-aggressive",
       "name": "Qwen3.5 9B Tuned",
       "category": "language",
@@ -412,6 +437,34 @@
       ],
       "canReadFiles": true,
       "mmprojUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-v3-GGUF/resolve/main/mmproj.gguf",
+      "contextLength": 32768
+    },
+    {
+      "id": "qwen3.5-9b-opus-distilled-v2",
+      "name": "Qwen3.5 9B Opus Distilled v2",
+      "category": "language",
+      "provider": "Jackrong",
+      "summary": "Improved v2 distillation of Qwen3.5 9B with 20% fewer reasoning tokens and higher accuracy. Good for offline analytical tasks, coding, and math.",
+      "sizeBytes": 5629105024,
+      "ramRequirementBytes": 11000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "weight": "medium",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF/resolve/b4d6d8e3760a202ca208a7c8aabb88b2ac18a10a/Qwen3.5-9B.Q4_K_M.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF/resolve/main/mmproj-BF16.gguf",
       "contextLength": 32768
     },
     {
@@ -575,6 +628,32 @@
       "contextLength": 262144
     },
     {
+      "id": "gemma-4-26b-a4b-tuned",
+      "name": "Gemma 4 26B-A4B Tuned",
+      "category": "language",
+      "provider": "nohurry / coder3101",
+      "summary": "Gemma 4 26B-A4B variant tuned for more direct replies. MoE architecture with only 4B active params. Vision support via dedicated mmproj.",
+      "sizeBytes": 16868236256,
+      "ramRequirementBytes": 34000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "weight": "large",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/resolve/9500faac1662832e14183e07879270659860271d/gemma-4-26b-a4b-it-heretic.q4_k_m.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/resolve/main/gemma-4-26B-A4B-it-heretic-mmproj.f16.gguf",
+      "contextLength": 131072
+    },
+    {
       "id": "qwen3.5-27b",
       "name": "Qwen3.5 27B",
       "category": "language",
@@ -647,6 +726,28 @@
       "canReadFiles": true,
       "mmprojUrl": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/resolve/main/mmproj-F16.gguf",
       "contextLength": 262144
+    },
+    {
+      "id": "gemma-4-31b-tuned",
+      "name": "Gemma 4 31B Tuned",
+      "category": "language",
+      "provider": "paperscarecrow",
+      "summary": "Gemma 4 31B variant tuned for more direct responses. Full dense 31B architecture for maximum quality. Desktop only.",
+      "sizeBytes": 18687057536,
+      "ramRequirementBytes": 36000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "weight": "large",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/paperscarecrow/Gemma-4-31B-it-abliterated/resolve/2491ee58472b82a2372d288f982943b9d5e6a82c/gemma-4-31b-abliterated-Q4_K_M.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "canReadFiles": true,
+      "contextLength": 131072
     },
     {
       "id": "hermes-4.3-36b",
