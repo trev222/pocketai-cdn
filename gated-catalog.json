@@ -29,8 +29,8 @@
       ],
       "defaultResolution": { "width": 1024, "height": 1024 },
       "supportsNegativePrompt": false,
-      "clipLUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/clip_l.safetensors",
-      "t5xxlUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/t5xxl_fp16.safetensors",
+      "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
+      "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
       "gated": true,
       "defaultQuantLevel": "Q4_K_M",
       "quantVariants": [
