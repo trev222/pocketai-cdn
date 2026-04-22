@@ -1158,8 +1158,9 @@
         "height": 1024
       },
       "supportsNegativePrompt": true,
-      "clipLUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/clip_l.safetensors",
-      "t5xxlUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/t5xxl_fp16.safetensors"
+      "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
+      "clipGUrl": "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8/resolve/main/text_encoders/clip_g.safetensors",
+      "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
     },
     {
       "id": "sdxl-lightning-4step-q8_0",
@@ -1362,8 +1363,9 @@
         "height": 1024
       },
       "supportsNegativePrompt": true,
-      "clipLUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/clip_l.safetensors",
-      "t5xxlUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/t5xxl_fp16.safetensors"
+      "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
+      "clipGUrl": "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8/resolve/main/text_encoders/clip_g.safetensors",
+      "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
     },
     {
       "id": "sd3.5-large-turbo-q4_0",
@@ -1414,8 +1416,9 @@
         "height": 1024
       },
       "supportsNegativePrompt": false,
-      "clipLUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/clip_l.safetensors",
-      "t5xxlUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/t5xxl_fp16.safetensors"
+      "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
+      "clipGUrl": "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8/resolve/main/text_encoders/clip_g.safetensors",
+      "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
     },
     {
       "id": "z-image-base-q8_0",
@@ -1518,8 +1521,8 @@
         "height": 1024
       },
       "supportsNegativePrompt": false,
-      "clipLUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/clip_l.safetensors",
-      "t5xxlUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/t5xxl_fp16.safetensors"
+      "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
+      "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
     },
     {
       "id": "flux1-dev-q4_0",
@@ -1570,8 +1573,8 @@
         "height": 1024
       },
       "supportsNegativePrompt": false,
-      "clipLUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/clip_l.safetensors",
-      "t5xxlUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/t5xxl_fp16.safetensors"
+      "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
+      "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
     },
     {
       "id": "chroma1-hd-flash-q4_0",
@@ -1778,8 +1781,8 @@
         "height": 1024
       },
       "supportsNegativePrompt": false,
-      "clipLUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/clip_l.safetensors",
-      "t5xxlUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/t5xxl_fp16.safetensors"
+      "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
+      "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
     },
     {
       "id": "flux1-dev-q8_0",
@@ -1830,8 +1833,8 @@
         "height": 1024
       },
       "supportsNegativePrompt": false,
-      "clipLUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/clip_l.safetensors",
-      "t5xxlUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/t5xxl_fp16.safetensors"
+      "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
+      "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
     },
     {
       "id": "chroma1-hd-q8_0",

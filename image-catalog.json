@@ -43,7 +43,17 @@
     },
     "supportsNegativePrompt": true,
     "weight": "light",
-    "defaultQuantLevel": "Q8_0"
+    "defaultQuantLevel": "Q8_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q4_0",
+        "sizeBytes": 1750000000,
+        "ramRequirementBytes": 5000000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/gpustack/stable-diffusion-v1-5-GGUF/resolve/main/stable-diffusion-v1-5-Q4_0.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "sdxl-turbo-q4_0",
@@ -92,7 +102,17 @@
     },
     "supportsNegativePrompt": false,
     "weight": "medium",
-    "defaultQuantLevel": "Q4_0"
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 5040000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/gpustack/stable-diffusion-xl-1.0-turbo-GGUF/resolve/main/stable-diffusion-xl-1.0-turbo-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "sd3.5-medium-q4_0",
@@ -143,10 +163,37 @@
       "height": 1024
     },
     "supportsNegativePrompt": true,
-    "clipLUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/clip_l.safetensors",
-    "t5xxlUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/t5xxl_fp16.safetensors",
+    "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
+    "clipGUrl": "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8/resolve/main/text_encoders/clip_g.safetensors",
+    "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
     "weight": "medium",
-    "defaultQuantLevel": "Q4_0"
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 1490000000,
+        "ramRequirementBytes": 6000000000,
+        "vramRequirementBytes": 4000000000,
+        "downloadUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/sd3.5_medium-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 2320000000,
+        "ramRequirementBytes": 10000000000,
+        "vramRequirementBytes": 6000000000,
+        "downloadUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/sd3.5_medium-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 2860000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 7000000000,
+        "downloadUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/sd3.5_medium-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "sdxl-lightning-4step-q8_0",
@@ -252,7 +299,33 @@
     "vaeUrl": "https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors",
     "llmUrl": "https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF/resolve/main/Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
     "weight": "medium",
-    "defaultQuantLevel": "Q4_0"
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 2590000000,
+        "ramRequirementBytes": 6000000000,
+        "vramRequirementBytes": 5000000000,
+        "downloadUrl": "https://huggingface.co/leejet/Z-Image-Turbo-GGUF/resolve/main/z_image_turbo-Q2_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 5260000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 9000000000,
+        "downloadUrl": "https://huggingface.co/leejet/Z-Image-Turbo-GGUF/resolve/main/z_image_turbo-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 6580000000,
+        "ramRequirementBytes": 14000000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/leejet/Z-Image-Turbo-GGUF/resolve/main/z_image_turbo-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "sdxl-base-1.0-q8_0",
@@ -304,7 +377,17 @@
     },
     "supportsNegativePrompt": true,
     "weight": "large",
-    "defaultQuantLevel": "Q8_0"
+    "defaultQuantLevel": "Q8_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q4_0",
+        "sizeBytes": 3940000000,
+        "ramRequirementBytes": 10000000000,
+        "vramRequirementBytes": 6000000000,
+        "downloadUrl": "https://huggingface.co/gpustack/stable-diffusion-xl-base-1.0-GGUF/resolve/main/stable-diffusion-xl-base-1.0-Q4_0.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "sd3.5-large-q4_0",
@@ -355,10 +438,29 @@
       "height": 1024
     },
     "supportsNegativePrompt": true,
-    "clipLUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/clip_l.safetensors",
-    "t5xxlUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/t5xxl_fp16.safetensors",
+    "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
+    "clipGUrl": "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8/resolve/main/text_encoders/clip_g.safetensors",
+    "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
     "weight": "large",
-    "defaultQuantLevel": "Q4_0"
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q5_0",
+        "sizeBytes": 5770000000,
+        "ramRequirementBytes": 20000000000,
+        "vramRequirementBytes": 12000000000,
+        "downloadUrl": "https://huggingface.co/city96/stable-diffusion-3.5-large-gguf/resolve/main/sd3.5_large-Q5_0.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 8780000000,
+        "ramRequirementBytes": 30000000000,
+        "vramRequirementBytes": 18000000000,
+        "downloadUrl": "https://huggingface.co/city96/stable-diffusion-3.5-large-gguf/resolve/main/sd3.5_large-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "sd3.5-large-turbo-q4_0",
@@ -409,10 +511,29 @@
       "height": 1024
     },
     "supportsNegativePrompt": false,
-    "clipLUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/clip_l.safetensors",
-    "t5xxlUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/t5xxl_fp16.safetensors",
+    "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
+    "clipGUrl": "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8/resolve/main/text_encoders/clip_g.safetensors",
+    "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
     "weight": "large",
-    "defaultQuantLevel": "Q4_0"
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q5_0",
+        "sizeBytes": 5770000000,
+        "ramRequirementBytes": 20000000000,
+        "vramRequirementBytes": 12000000000,
+        "downloadUrl": "https://huggingface.co/city96/stable-diffusion-3.5-large-turbo-gguf/resolve/main/sd3.5_large_turbo-Q5_0.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 8780000000,
+        "ramRequirementBytes": 30000000000,
+        "vramRequirementBytes": 18000000000,
+        "downloadUrl": "https://huggingface.co/city96/stable-diffusion-3.5-large-turbo-gguf/resolve/main/sd3.5_large_turbo-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "z-image-base-q8_0",
@@ -466,7 +587,17 @@
     "vaeUrl": "https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors",
     "llmUrl": "https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF/resolve/main/Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
     "weight": "large",
-    "defaultQuantLevel": "Q8_0"
+    "defaultQuantLevel": "Q8_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q4_0",
+        "sizeBytes": 3840000000,
+        "ramRequirementBytes": 10000000000,
+        "vramRequirementBytes": 6000000000,
+        "downloadUrl": "https://huggingface.co/leejet/Z-Image-GGUF/resolve/main/z_image-Q4_0.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "flux1-schnell-q4_0",
@@ -517,11 +648,35 @@
       "height": 1024
     },
     "supportsNegativePrompt": false,
-    "clipLUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/clip_l.safetensors",
-    "t5xxlUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/t5xxl_fp16.safetensors",
+    "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
+    "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
     "weight": "heavy",
     "defaultQuantLevel": "Q4_0",
     "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 4010000000,
+        "ramRequirementBytes": 10000000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/flux1-schnell-Q2_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q3_K_S",
+        "sizeBytes": 5210000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 10000000000,
+        "downloadUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/flux1-schnell-Q3_K_S.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 9830000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 18000000000,
+        "downloadUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/flux1-schnell-Q6_K.gguf",
+        "sha256": ""
+      },
       {
         "quantLevel": "Q8_0",
         "sizeBytes": 12700000000,
@@ -581,11 +736,35 @@
       "height": 1024
     },
     "supportsNegativePrompt": false,
-    "clipLUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/clip_l.safetensors",
-    "t5xxlUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/t5xxl_fp16.safetensors",
+    "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
+    "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
     "weight": "heavy",
     "defaultQuantLevel": "Q4_0",
     "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 4030000000,
+        "ramRequirementBytes": 10000000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q2_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q3_K_S",
+        "sizeBytes": 5230000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 10000000000,
+        "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q3_K_S.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 9860000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 18000000000,
+        "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q6_K.gguf",
+        "sha256": ""
+      },
       {
         "quantLevel": "Q8_0",
         "sizeBytes": 12700000000,
@@ -648,7 +827,33 @@
     "vaeUrl": "https://huggingface.co/lodestones/Chroma/resolve/main/ae.safetensors",
     "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
     "weight": "heavy",
-    "defaultQuantLevel": "Q4_0"
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 3410000000,
+        "ramRequirementBytes": 10000000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/silveroxides/Chroma1-Flash-GGUF/resolve/main/Chroma1-HD-Flash-Q2_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 7650000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 16000000000,
+        "downloadUrl": "https://huggingface.co/silveroxides/Chroma1-Flash-GGUF/resolve/main/Chroma1-HD-Flash-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 9740000000,
+        "ramRequirementBytes": 30000000000,
+        "vramRequirementBytes": 22000000000,
+        "downloadUrl": "https://huggingface.co/silveroxides/Chroma1-Flash-GGUF/resolve/main/Chroma1-HD-Flash-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "chroma1-hd-q4_0",
@@ -704,6 +909,22 @@
     "weight": "heavy",
     "defaultQuantLevel": "Q4_0",
     "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 3410000000,
+        "ramRequirementBytes": 10000000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/silveroxides/Chroma1-HD-GGUF/resolve/main/Chroma1-HD-Q2_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 7650000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 16000000000,
+        "downloadUrl": "https://huggingface.co/silveroxides/Chroma1-HD-GGUF/resolve/main/Chroma1-HD-Q6_K.gguf",
+        "sha256": ""
+      },
       {
         "quantLevel": "Q8_0",
         "sizeBytes": 9740000000,
@@ -766,7 +987,17 @@
     "vaeUrl": "https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors",
     "llmUrl": "https://huggingface.co/Comfy-Org/Ovis-Image/resolve/main/split_files/text_encoders/ovis_2.5.safetensors",
     "weight": "heavy",
-    "defaultQuantLevel": "Q4_0"
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 7870000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 16000000000,
+        "downloadUrl": "https://huggingface.co/leejet/Ovis-Image-7B-GGUF/resolve/main/ovis_image-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "chroma1-radiance-v0.4-q8_0",
@@ -873,6 +1104,32 @@
     "vaeUrl": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors",
     "llmUrl": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Instruct-GGUF/resolve/main/Qwen2.5-VL-7B-Instruct.Q8_0.gguf",
     "weight": "massive",
-    "defaultQuantLevel": "Q4_K_M"
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 7060000000,
+        "ramRequirementBytes": 14000000000,
+        "vramRequirementBytes": 10000000000,
+        "downloadUrl": "https://huggingface.co/QuantStack/Qwen-Image-GGUF/resolve/main/Qwen_Image-Q2_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 16800000000,
+        "ramRequirementBytes": 32000000000,
+        "vramRequirementBytes": 20000000000,
+        "downloadUrl": "https://huggingface.co/QuantStack/Qwen-Image-GGUF/resolve/main/Qwen_Image-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 21800000000,
+        "ramRequirementBytes": 40000000000,
+        "vramRequirementBytes": 28000000000,
+        "downloadUrl": "https://huggingface.co/QuantStack/Qwen-Image-GGUF/resolve/main/Qwen_Image-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
   }
 ]

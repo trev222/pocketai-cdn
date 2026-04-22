@@ -47,7 +47,33 @@
     "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
     "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
     "weight": "light",
-    "defaultQuantLevel": "Q4_0"
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 830000000,
+        "ramRequirementBytes": 4000000000,
+        "vramRequirementBytes": 3000000000,
+        "downloadUrl": "https://huggingface.co/calcuis/wan-1.3b-gguf/resolve/main/wan2.1-vace-1.3b-q2_k.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 1850000000,
+        "ramRequirementBytes": 10000000000,
+        "vramRequirementBytes": 7000000000,
+        "downloadUrl": "https://huggingface.co/calcuis/wan-1.3b-gguf/resolve/main/wan2.1-vace-1.3b-q6_k.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 2370000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 9000000000,
+        "downloadUrl": "https://huggingface.co/calcuis/wan-1.3b-gguf/resolve/main/wan2.1-vace-1.3b-q8_0.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "wan2.1-t2v-1.3b-q4_0",
@@ -97,7 +123,25 @@
     "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
     "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
     "weight": "light",
-    "defaultQuantLevel": "Q4_0"
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 579000000,
+        "ramRequirementBytes": 2000000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/calcuis/wan-1.3b-gguf/resolve/main/wan2.1_t2v_1.3b-q2_k.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 780000000,
+        "ramRequirementBytes": 3000000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/calcuis/wan-1.3b-gguf/resolve/main/wan2.1_t2v_1.3b-q3_k_m.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "wan2.2-ti2v-5b-q4_0",
@@ -147,7 +191,33 @@
     "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
     "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors",
     "weight": "medium",
-    "defaultQuantLevel": "Q4_0"
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 1850000000,
+        "ramRequirementBytes": 5000000000,
+        "vramRequirementBytes": 4000000000,
+        "downloadUrl": "https://huggingface.co/QuantStack/Wan2.2-TI2V-5B-GGUF/resolve/main/Wan2.2-TI2V-5B-Q2_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 4210000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 9000000000,
+        "downloadUrl": "https://huggingface.co/QuantStack/Wan2.2-TI2V-5B-GGUF/resolve/main/Wan2.2-TI2V-5B-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 5400000000,
+        "ramRequirementBytes": 14000000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/QuantStack/Wan2.2-TI2V-5B-GGUF/resolve/main/Wan2.2-TI2V-5B-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "wan2.1-t2v-14b-q4_0",
@@ -205,7 +275,33 @@
     "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
     "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
     "weight": "heavy",
-    "defaultQuantLevel": "Q4_0"
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_S",
+        "sizeBytes": 6990000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 10000000000,
+        "downloadUrl": "https://huggingface.co/city96/Wan2.1-T2V-14B-GGUF/resolve/main/wan2.1-t2v-14b-Q3_K_S.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 12500000000,
+        "ramRequirementBytes": 22000000000,
+        "vramRequirementBytes": 18000000000,
+        "downloadUrl": "https://huggingface.co/city96/Wan2.1-T2V-14B-GGUF/resolve/main/wan2.1-t2v-14b-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 15900000000,
+        "ramRequirementBytes": 28000000000,
+        "vramRequirementBytes": 24000000000,
+        "downloadUrl": "https://huggingface.co/city96/Wan2.1-T2V-14B-GGUF/resolve/main/wan2.1-t2v-14b-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "wan2.1-vace-14b-q4_0",
@@ -263,7 +359,33 @@
     "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
     "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
     "weight": "heavy",
-    "defaultQuantLevel": "Q4_0"
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_S",
+        "sizeBytes": 7840000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/QuantStack/Wan2.1_14B_VACE-GGUF/resolve/main/Wan2.1_14B_VACE-Q3_K_S.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 14500000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 20000000000,
+        "downloadUrl": "https://huggingface.co/QuantStack/Wan2.1_14B_VACE-GGUF/resolve/main/Wan2.1_14B_VACE-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 18700000000,
+        "ramRequirementBytes": 30000000000,
+        "vramRequirementBytes": 26000000000,
+        "downloadUrl": "https://huggingface.co/QuantStack/Wan2.1_14B_VACE-GGUF/resolve/main/Wan2.1_14B_VACE-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "wan2.1-i2v-14b-480p-q4_0",
@@ -314,7 +436,33 @@
     "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
     "clipVisionUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
     "weight": "heavy",
-    "defaultQuantLevel": "Q4_0"
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_S",
+        "sizeBytes": 7930000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/city96/Wan2.1-I2V-14B-480P-gguf/resolve/main/wan2.1-i2v-14b-480p-Q3_K_S.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 14200000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 20000000000,
+        "downloadUrl": "https://huggingface.co/city96/Wan2.1-I2V-14B-480P-gguf/resolve/main/wan2.1-i2v-14b-480p-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 18100000000,
+        "ramRequirementBytes": 30000000000,
+        "vramRequirementBytes": 26000000000,
+        "downloadUrl": "https://huggingface.co/city96/Wan2.1-I2V-14B-480P-gguf/resolve/main/wan2.1-i2v-14b-480p-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "wan2.1-i2v-14b-720p-q4_0",
@@ -373,7 +521,33 @@
     "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
     "clipVisionUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
     "weight": "massive",
-    "defaultQuantLevel": "Q4_0"
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_S",
+        "sizeBytes": 7930000000,
+        "ramRequirementBytes": 14000000000,
+        "vramRequirementBytes": 13000000000,
+        "downloadUrl": "https://huggingface.co/city96/Wan2.1-I2V-14B-720P-gguf/resolve/main/wan2.1-i2v-14b-720p-Q3_K_S.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 14200000000,
+        "ramRequirementBytes": 26000000000,
+        "vramRequirementBytes": 24000000000,
+        "downloadUrl": "https://huggingface.co/city96/Wan2.1-I2V-14B-720P-gguf/resolve/main/wan2.1-i2v-14b-720p-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 18100000000,
+        "ramRequirementBytes": 32000000000,
+        "vramRequirementBytes": 30000000000,
+        "downloadUrl": "https://huggingface.co/city96/Wan2.1-I2V-14B-720P-gguf/resolve/main/wan2.1-i2v-14b-720p-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "wan2.1-flf2v-14b-720p-q4_0",
