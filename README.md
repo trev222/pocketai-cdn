@@ -151,6 +151,72 @@ App store build:          Xcode → Target → Build Settings →
 
 Config: `PocketAI/Services/AppConfig.swift` uses `#if FOR_APP_STORES` compiler directives. Code inside `#if !FOR_APP_STORES ... #endif` is not compiled into the binary at all.
 
+## Prebuilt mesh wheels
+
+The `wheels/` tree hosts prebuilt CUDA C++ extensions used by the 3D mesh
+generation backends (TRELLIS, Hunyuan3D). End users on a fresh Windows 11
+machine without Visual Studio / CUDA toolkit cannot compile these from source,
+so per-backend venvs install them from the CDN via `--find-links`.
+
+### Path layout
+
+```
+cdn.pocketaihub.com/wheels/<variant>/<package>/<file>.whl
+cdn.pocketaihub.com/wheels/<variant>/SHA256SUMS
+```
+
+The `<variant>` tag encodes torch + CUDA: `pt<torch_major><minor>cu<cuda>`.
+Current variant: `pt24cu121` = torch 2.4.1 + CUDA 12.1.
+
+### Hosted packages
+
+| Package | Upstream | Used by |
+|---|---|---|
+| `nvdiffrast` | [NVlabs/nvdiffrast](https://github.com/NVlabs/nvdiffrast) | TRELLIS, Hunyuan3D |
+| `custom-rasterizer` | [Tencent-Hunyuan/Hunyuan3D-2.1](https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1) (`hy3dpaint/custom_rasterizer`) | Hunyuan3D |
+| `differentiable-renderer` | [Tencent-Hunyuan/Hunyuan3D-2.1](https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1) (`hy3dpaint/DifferentiableRenderer`) | Hunyuan3D |
+
+**NOT hosted: `diff-gaussian-rasterization`.** The Inria rasterizer
+(`graphdeco-inria/diff-gaussian-rasterization`) is **non-commercial license**
+and we will not redistribute binaries. TRELLIS-mesh-only does not require it;
+only the splat/NeRF path (intentionally excluded from PocketAI) does.
+
+### Install usage
+
+```bash
+pip install --find-links https://cdn.pocketaihub.com/wheels/pt24cu121/ nvdiffrast
+```
+
+Or pin exact URLs in a per-backend `requirements.txt` (Phase 4 subagents will
+wire this up when they author each backend):
+
+```
+# For packages with CUDA build deps baked in:
+nvdiffrast @ https://cdn.pocketaihub.com/wheels/pt24cu121/nvdiffrast/nvdiffrast-0.3.3+pt24cu121-cp311-cp311-linux_x86_64.whl ; sys_platform == 'linux'
+nvdiffrast @ https://cdn.pocketaihub.com/wheels/pt24cu121/nvdiffrast/nvdiffrast-0.3.3+pt24cu121-cp311-cp311-win_amd64.whl ; sys_platform == 'win32'
+```
+
+Filenames follow PEP 427 with the `+<variant>` local-version segment:
+`{package}-{version}+pt24cu121-cp311-cp311-{linux_x86_64|win_amd64}.whl`.
+
+### How to add a new wheel
+
+Wheels are produced by the
+[`build-mesh-wheels.yml`](https://github.com/trev222/local-language-model/actions/workflows/build-mesh-wheels.yml)
+workflow in the `local-language-model` repo and committed here automatically.
+
+- **Manual run:** Actions → "Build mesh wheels" → Run workflow.
+- **Tag-triggered:** push a tag matching `mesh-wheels-v*`.
+
+The workflow's `publish` job clones this repo over SSH using the
+`POCKETAI_CDN_DEPLOY_KEY` secret (configured on the `local-language-model`
+repo), copies wheels into `wheels/<variant>/<package>/`, regenerates the
+PEP 503 simple-index `index.html` pages, refreshes `SHA256SUMS`, and pushes
+one commit per new wheel file plus a final index-refresh commit.
+
+To add a **new variant** (e.g. `pt24cu124`): update `VARIANT` / `CUDA_VERSION`
+/ `TORCH_VERSION` env in the workflow and add a matching directory here.
+
 ## Usage in Apps
 
 The desktop/web app references the CDN base URL in `apps/app/app/api-client.ts`:
